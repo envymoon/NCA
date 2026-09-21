@@ -1,43 +1,43 @@
-# Anonymous ICTAI artifact
+# Geodesic Step Budgeting for Neural Cellular Automata
 
-This archive contains only artifacts used by the submitted paper. It deliberately omits
-development logs, superseded experiments, and the withdrawn learned-halting pilot.
+Ian Dang, University of California, Davis. ICTAI 2026, paper 636.
 
-## Reproduce the CPU-only paper analyses
+Formal repository: https://github.com/envymoon/NCA
 
-From this directory:
+Release: **ictai-2026-camera-ready**. Use the tag rather than a changing `main` checkout.
 
-```text
-python full_population_audit.py results_E_maze_s01234.json \
-  --device cpu --reuse-rows audit_full_population.json \
-  --out audit_full_population.json
-python bootstrap_ci.py
-python eval_vglc.py --reanalyze-existing
-python make_figures.py
+This artifact studies a scene-dependent iteration budget for distance-like NCA tasks. It is not an alternative fast distance solver: BFS already solves the unweighted reference task. The tested benefit is fewer learned-update passes at matched **offline knee-attainment coverage**. That event does not certify output quality at the stopping step, especially when trajectories drift.
+
+## Start here
+
+Python 3.10 or later is sufficient for the saved-number checks. No GPU or third-party Python packages are needed for the first command.
+
+```sh
+python verify_release.py
 ```
 
-The first command reuses the bit-exact pool reconstruction already stored in the audit
-JSON; it does not regenerate CUDA random streams. `policy_discrete.py` is the single
-definition of the deployed policy: `T=max(1,ceil(c*D))`, with `c` calibrated on a 0.01
-grid to the flat policy's unconditional coverage.
+It checks the complete release manifest and recomputes selected manuscript values from saved per-scene records. It does not retrain models or independently recreate every historic analysis. For a separate CPU oracle over the saved revision curves:
 
-GPU scripts record their full protocol (gates, seeds, measurement scope) in their output JSON. The VGLC
-evaluation requires a local checkout of The Video Game Level Corpus at the relative path
-documented in `eval_vglc.py`. Retained checkpoints are included for the evaluation-only
-probes. SHA-256 hashes in `RELEASE_MANIFEST.sha256` cover every other file in the archive.
-
-## Reproduce the fused-kernel latency measurement
-
-Branch O requires Linux/WSL2, an NVIDIA GPU, PyTorch with CUDA, Triton, and `gcc`.
-The archived run used Python 3.10, PyTorch 2.12.1+cu130, Triton 3.7.1, CUDA 13.0,
-and an RTX 4060 Laptop GPU. From this directory:
-
-```text
-python3 -u branch_O_shader.py --out branch_O_shader_v2.json
+```sh
+python -m pip install numpy
+python verify_curves.py
 ```
 
-The script records 25 blocked groups and 100 host-observed frame samples per budget,
-their raw values and p10/median/p90 summaries, randomized budget order, numerical
-parity, and the full measurement boundary. Inputs are already GPU-resident; graph
-capture/setup, changed-mask transfer, graph selection, and renderer integration are
-not included. Exact latency is hardware- and runtime-dependent.
+See [REPRODUCING.md](REPRODUCING.md) for GPU evaluation, training and timing. [RESULTS_INDEX.md](RESULTS_INDEX.md) maps the paper's evidence to files and populations.
+
+## Versions
+
+- `experiments/` contains the code and evidence used by the camera-ready paper, including original core results and additional controls in `experiments/camera_ready/`.
+- `original_submission/` preserves the complete 65-file local submission artifact and its original manifest, byte for byte. It includes superseded timing and earlier explanatory wording.
+- `legacy_github/` preserves the preceding GitHub snapshot, commit `1b4ebbe944aeb46135a22ee8d663ac94504edfca`. Its comments were stripped for the anonymous release. This is a separate source snapshot, not another experiment.
+- `SOURCE_PROVENANCE.json` records original paths and hashes. [CODE_PROVENANCE.md](CODE_PROVENANCE.md) explains the two historical source-hash differences. Original manifests are not rewritten.
+
+The current latency claims use **full-path** measurements in `experiments/camera_ready/latency_full_population/results.json`. The earlier Branch O timing omitted parts of the changing-input path and is retained only as history.
+
+## Evidence limits
+
+The core comparison uses grids 16/24/32 and five trainings per grid. Only three of five G48 baseline trainings attain the aggregate threshold. Ratio statistics condition on attainment; budget coverage retains non-attained scenes as failures. A wider model and fixed Sobel perception test limited changes of capacity and perception. They do not establish architecture-independent calibration. Weighted targets, game maps and a screened-Poisson negative result delineate transfer limits. These experiments do not establish an asymptotic scaling law or a competitive real-world application.
+
+## License and external materials
+
+The author's code and accompanying artifact documentation are MIT licensed; see [LICENSE](LICENSE). This code license is not a license for the conference manuscript or for third-party data. Included checkpoints and generated numerical records are supplied as research artifacts. External assets and software retain their own terms. VGLC map files are not bundled; obtain them from https://github.com/TheVGLC/TheVGLC and follow the relevant data terms and attribution requirements. Saved measurements derived from those maps are included.

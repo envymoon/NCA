@@ -1,0 +1,10 @@
+{
+  "iteration": 20000,
+  "iterations": 20000,
+  "seed": 2,
+  "loss": 0.011324250139296055,
+  "gradient_norm_before_clip": 10.728090286254883,
+  "seconds": 3824.196901927,
+  "estimated_remaining_seconds": 0.0,
+  "first_32_sampling_sha256": "255c939a3fdf43c2ad73f7b1401a5c47ab31f8fcd3a7682d452e0f536ec143e5"
+}

@@ -1,0 +1,1030 @@
+{
+  "created_utc": "2026-09-12T20:48:07.132444+00:00",
+  "protected_files_unchanged": true,
+  "width": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "status": "attained",
+        "training_status": "completed",
+        "aggregate_knee": 29,
+        "aggregate_c1": 0.8672897196261682,
+        "aggregate_floor": 0.0035377953317947686,
+        "tail_ceiling": 0.9841269841269841,
+        "tail_c1_geo": 0.856056160323029,
+        "tail_CV": {
+          "dgeo": 0.1198681650715985,
+          "dfree": 0.5891062898059185,
+          "deuc": 0.6082153904655084
+        },
+        "heldout_policy_tail": {
+          "status": "ok",
+          "f": 0.95,
+          "calibration": "even pool_idx",
+          "evaluation": "odd pool_idx",
+          "flat_T": 39,
+          "geo_c": 0.94,
+          "fit_coverage": 0.9444444444444444,
+          "geo_cost": 32.6031746031746,
+          "flat_cost": 39,
+          "geo_coverage": 0.9682539682539683,
+          "flat_coverage": 0.8809523809523809,
+          "coverage_difference_pp": 8.730158730158733,
+          "saving_fraction": 0.16402116402116407,
+          "point_weak_pareto_dominance": true,
+          "actual_output_diagnostic": {
+            "flat": {
+              "raw_quality_coverage_conservative": 0.8809523809523809,
+              "budgets_beyond_measured_horizon": 0
+            },
+            "geo": {
+              "raw_quality_coverage_conservative": 0.9682539682539683,
+              "budgets_beyond_measured_horizon": 0
+            }
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "status": "attained",
+        "training_status": "completed",
+        "aggregate_knee": 30,
+        "aggregate_c1": 0.897196261682243,
+        "aggregate_floor": 0.003461125190369785,
+        "tail_ceiling": 0.9880952380952381,
+        "tail_c1_geo": 0.8528197027590732,
+        "tail_CV": {
+          "dgeo": 0.12168263724722767,
+          "dfree": 0.5979156401876252,
+          "deuc": 0.6145917390097116
+        },
+        "heldout_policy_tail": {
+          "status": "ok",
+          "f": 0.95,
+          "calibration": "even pool_idx",
+          "evaluation": "odd pool_idx",
+          "flat_T": 42,
+          "geo_c": 0.94,
+          "fit_coverage": 0.9444444444444444,
+          "geo_cost": 32.6031746031746,
+          "flat_cost": 42,
+          "geo_coverage": 0.9682539682539683,
+          "flat_coverage": 0.9285714285714286,
+          "coverage_difference_pp": 3.9682539682539653,
+          "saving_fraction": 0.22373393801965236,
+          "point_weak_pareto_dominance": true,
+          "actual_output_diagnostic": {
+            "flat": {
+              "raw_quality_coverage_conservative": 0.9285714285714286,
+              "budgets_beyond_measured_horizon": 0
+            },
+            "geo": {
+              "raw_quality_coverage_conservative": 0.9682539682539683,
+              "budgets_beyond_measured_horizon": 0
+            }
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "status": "attained",
+        "training_status": "completed",
+        "aggregate_knee": 29,
+        "aggregate_c1": 0.8672897196261682,
+        "aggregate_floor": 0.003601996460929513,
+        "tail_ceiling": 0.9761904761904762,
+        "tail_c1_geo": 0.8526876996418504,
+        "tail_CV": {
+          "dgeo": 0.11909961999557026,
+          "dfree": 0.5885011924007617,
+          "deuc": 0.6051248316189732
+        },
+        "heldout_policy_tail": {
+          "status": "ok",
+          "f": 0.95,
+          "calibration": "even pool_idx",
+          "evaluation": "odd pool_idx",
+          "flat_T": 44,
+          "geo_c": 0.94,
+          "fit_coverage": 0.9444444444444444,
+          "geo_cost": 32.6031746031746,
+          "flat_cost": 44,
+          "geo_coverage": 0.9444444444444444,
+          "flat_coverage": 0.9126984126984127,
+          "coverage_difference_pp": 3.1746031746031744,
+          "saving_fraction": 0.25901875901875904,
+          "point_weak_pareto_dominance": true,
+          "actual_output_diagnostic": {
+            "flat": {
+              "raw_quality_coverage_conservative": 0.9126984126984127,
+              "budgets_beyond_measured_horizon": 0
+            },
+            "geo": {
+              "raw_quality_coverage_conservative": 0.9444444444444444,
+              "budgets_beyond_measured_horizon": 0
+            }
+          }
+        }
+      }
+    ],
+    "paired_small_model_reference": [
+      {
+        "seed": 0,
+        "tail_ceiling": 0.8293650793650794,
+        "tail_ratios": {
+          "dgeo": {
+            "n": 209,
+            "mean": 0.8855350776433383,
+            "std": 0.14006005050744808,
+            "cv": 0.1581643167430339
+          },
+          "dfree": {
+            "n": 209,
+            "mean": 1.454776563423455,
+            "std": 0.8201248569771917,
+            "cv": 0.5637462670193364
+          },
+          "deuc": {
+            "n": 209,
+            "mean": 1.2723061516428564,
+            "std": 0.7527944510046153,
+            "cv": 0.5916771289933439
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "tail_ceiling": 0.9841269841269841,
+        "tail_ratios": {
+          "dgeo": {
+            "n": 248,
+            "mean": 0.8700377165409433,
+            "std": 0.2216484514688503,
+            "cv": 0.2547572906954772
+          },
+          "dfree": {
+            "n": 248,
+            "mean": 1.5473822332318452,
+            "std": 0.9370281504934804,
+            "cv": 0.6055570048367519
+          },
+          "deuc": {
+            "n": 248,
+            "mean": 1.3512055486595915,
+            "std": 0.8467810605563898,
+            "cv": 0.6266856004228257
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "tail_ceiling": 0.9523809523809523,
+        "tail_ratios": {
+          "dgeo": {
+            "n": 240,
+            "mean": 0.9307614854269923,
+            "std": 0.166553893508536,
+            "cv": 0.17894368870681024
+          },
+          "dfree": {
+            "n": 240,
+            "mean": 1.6472359347832786,
+            "std": 0.9992192668602285,
+            "cv": 0.6066036113956514
+          },
+          "deuc": {
+            "n": 240,
+            "mean": 1.4401247044456242,
+            "std": 0.914276580011497,
+            "cv": 0.6348593126617098
+          }
+        }
+      }
+    ],
+    "tail_ceiling_across_all_seeds": {
+      "n": 3,
+      "mean": 0.9828042328042328,
+      "std": 0.006061608062110926,
+      "cv": 0.006167665807477605
+    },
+    "tail_c1_conditional": {
+      "n": 3,
+      "mean": 0.8538545209079842,
+      "std": 0.0019078176776485395,
+      "cv": 0.0022343591688426933
+    },
+    "interpretation": "width control at G32 only; same-scene CV comparisons; no universal c=1 claim"
+  },
+  "G48": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "status": "finite_threshold_failure",
+        "training_status": "completed",
+        "aggregate_knee": null,
+        "aggregate_c1": null,
+        "aggregate_floor": 0.08189099142327905,
+        "tail_ceiling": 0.3147410358565737,
+        "tail_c1_geo": 0.9883682854230054,
+        "tail_CV": {
+          "dgeo": 0.13335431834567507,
+          "dfree": 0.41126392067401246,
+          "deuc": 0.41351254070218296
+        },
+        "heldout_policy_tail": {
+          "status": "ok",
+          "f": 0.95,
+          "calibration": "even pool_idx",
+          "evaluation": "odd pool_idx",
+          "flat_T": 68,
+          "geo_c": 1.13,
+          "fit_coverage": 0.31746031746031744,
+          "geo_cost": 59.648,
+          "flat_cost": 68,
+          "geo_coverage": 0.264,
+          "flat_coverage": 0.288,
+          "coverage_difference_pp": -2.399999999999997,
+          "saving_fraction": 0.12282352941176466,
+          "point_weak_pareto_dominance": false,
+          "actual_output_diagnostic": {
+            "flat": {
+              "raw_quality_coverage_conservative": 0.216,
+              "budgets_beyond_measured_horizon": 0
+            },
+            "geo": {
+              "raw_quality_coverage_conservative": 0.288,
+              "budgets_beyond_measured_horizon": 0
+            }
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "status": "attained",
+        "training_status": "completed",
+        "aggregate_knee": 49,
+        "aggregate_c1": 0.9162892622352082,
+        "aggregate_floor": 0.030052858986891806,
+        "tail_ceiling": 0.9243027888446215,
+        "tail_c1_geo": 0.8457620558166715,
+        "tail_CV": {
+          "dgeo": 0.12855401708183353,
+          "dfree": 0.7853459213489339,
+          "deuc": 0.7581318807673013
+        },
+        "heldout_policy_tail": {
+          "status": "ok",
+          "f": 0.95,
+          "calibration": "even pool_idx",
+          "evaluation": "odd pool_idx",
+          "flat_T": 65,
+          "geo_c": 0.96,
+          "fit_coverage": 0.8968253968253969,
+          "geo_cost": 50.776,
+          "flat_cost": 65,
+          "geo_coverage": 0.92,
+          "flat_coverage": 0.896,
+          "coverage_difference_pp": 2.400000000000002,
+          "saving_fraction": 0.21883076923076916,
+          "point_weak_pareto_dominance": true,
+          "actual_output_diagnostic": {
+            "flat": {
+              "raw_quality_coverage_conservative": 0.896,
+              "budgets_beyond_measured_horizon": 0
+            },
+            "geo": {
+              "raw_quality_coverage_conservative": 0.912,
+              "budgets_beyond_measured_horizon": 0
+            }
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "status": "attained",
+        "training_status": "completed",
+        "aggregate_knee": 50,
+        "aggregate_c1": 0.9349890430971513,
+        "aggregate_floor": 0.014008345548063517,
+        "tail_ceiling": 0.9362549800796812,
+        "tail_c1_geo": 0.9161720557247328,
+        "tail_CV": {
+          "dgeo": 0.200643624498261,
+          "dfree": 0.7828304490307999,
+          "deuc": 0.7857929600417691
+        },
+        "heldout_policy_tail": {
+          "status": "ok",
+          "f": 0.95,
+          "calibration": "even pool_idx",
+          "evaluation": "odd pool_idx",
+          "flat_T": 71,
+          "geo_c": 1.2,
+          "fit_coverage": 0.873015873015873,
+          "geo_cost": 63.208,
+          "flat_cost": 71,
+          "geo_coverage": 0.928,
+          "flat_coverage": 0.88,
+          "coverage_difference_pp": 4.800000000000004,
+          "saving_fraction": 0.1097464788732394,
+          "point_weak_pareto_dominance": true,
+          "actual_output_diagnostic": {
+            "flat": {
+              "raw_quality_coverage_conservative": 0.88,
+              "budgets_beyond_measured_horizon": 0
+            },
+            "geo": {
+              "raw_quality_coverage_conservative": 0.928,
+              "budgets_beyond_measured_horizon": 0
+            }
+          }
+        }
+      },
+      {
+        "seed": 3,
+        "status": "attained",
+        "training_status": "archived_evaluation_only",
+        "aggregate_knee": 49,
+        "aggregate_c1": 0.9162892622352082,
+        "aggregate_floor": 0.021280576707795262,
+        "tail_ceiling": 0.900398406374502,
+        "tail_c1_geo": 0.8462870647895153,
+        "tail_CV": {
+          "dgeo": 0.12258886516683415,
+          "dfree": 0.8062487526604878,
+          "deuc": 0.7719243137123175
+        },
+        "heldout_policy_tail": {
+          "status": "ok",
+          "f": 0.95,
+          "calibration": "even pool_idx",
+          "evaluation": "odd pool_idx",
+          "flat_T": 64,
+          "geo_c": 0.95,
+          "fit_coverage": 0.8809523809523809,
+          "geo_cost": 50.216,
+          "flat_cost": 64,
+          "geo_coverage": 0.848,
+          "flat_coverage": 0.84,
+          "coverage_difference_pp": 0.8000000000000007,
+          "saving_fraction": 0.21537499999999998,
+          "point_weak_pareto_dominance": true,
+          "actual_output_diagnostic": {
+            "flat": {
+              "raw_quality_coverage_conservative": 0.84,
+              "budgets_beyond_measured_horizon": 0
+            },
+            "geo": {
+              "raw_quality_coverage_conservative": 0.848,
+              "budgets_beyond_measured_horizon": 0
+            }
+          }
+        }
+      },
+      {
+        "seed": 4,
+        "status": "finite_threshold_failure",
+        "training_status": "archived_evaluation_only",
+        "aggregate_knee": null,
+        "aggregate_c1": null,
+        "aggregate_floor": 0.05829842993989587,
+        "tail_ceiling": 0.9721115537848606,
+        "tail_c1_geo": 0.866939131930964,
+        "tail_CV": {
+          "dgeo": 0.11785151213131331,
+          "dfree": 0.7623181509733328,
+          "deuc": 0.7308293407447184
+        },
+        "heldout_policy_tail": {
+          "status": "ok",
+          "f": 0.95,
+          "calibration": "even pool_idx",
+          "evaluation": "odd pool_idx",
+          "flat_T": 64,
+          "geo_c": 0.96,
+          "fit_coverage": 0.9206349206349206,
+          "geo_cost": 50.776,
+          "flat_cost": 64,
+          "geo_coverage": 0.96,
+          "flat_coverage": 0.912,
+          "coverage_difference_pp": 4.799999999999994,
+          "saving_fraction": 0.20662499999999995,
+          "point_weak_pareto_dominance": true,
+          "actual_output_diagnostic": {
+            "flat": {
+              "raw_quality_coverage_conservative": 0.912,
+              "budgets_beyond_measured_horizon": 0
+            },
+            "geo": {
+              "raw_quality_coverage_conservative": 0.96,
+              "budgets_beyond_measured_horizon": 0
+            }
+          }
+        }
+      }
+    ],
+    "n_seeds": 5,
+    "n_aggregate_attained": 3,
+    "aggregate_c1_conditional_on_attainment": {
+      "n": 3,
+      "mean": 0.9225225225225225,
+      "std": 0.010796323514429813,
+      "cv": 0.011703045997087004
+    },
+    "interpretation": "original s4 failure retained; post-review completion of seed set, not asymptotic evidence"
+  },
+  "latency": {
+    "pooled": {
+      "static": {
+        "n_scenes": 762,
+        "flat_us": {
+          "n": 762,
+          "mean": 738.608882327209,
+          "median": 728.5536666666667,
+          "p10": 681.2785,
+          "p90": 814.1500166666667
+        },
+        "geo_us": {
+          "n": 762,
+          "mean": 601.5206592300963,
+          "median": 544.8910000000001,
+          "p10": 282.0837666666667,
+          "p90": 975.4062833333332
+        },
+        "saving_us": 137.0882230971129,
+        "saving_fraction": 0.1856032690335041,
+        "saving_fraction_paired_scene_bootstrap_95ci": [
+          0.16637373384291773,
+          0.20413484645804195
+        ],
+        "bootstrap_replicates": 2000,
+        "estimand": "ratio of scene-weighted arithmetic means, all repeats retained"
+      },
+      "dynamic": {
+        "n_scenes": 762,
+        "flat_us": {
+          "n": 762,
+          "mean": 812.7775002187225,
+          "median": 791.13975,
+          "p10": 756.4945,
+          "p90": 885.5432833333333
+        },
+        "geo_us": {
+          "n": 762,
+          "mean": 720.4947233158355,
+          "median": 662.1028333333334,
+          "p10": 394.6062666666667,
+          "p90": 1123.8657166666667
+        },
+        "saving_us": 92.28277690288715,
+        "saving_fraction": 0.11354002402632113,
+        "saving_fraction_paired_scene_bootstrap_95ci": [
+          0.09579326213246925,
+          0.1313020757206046
+        ],
+        "bootstrap_replicates": 2000,
+        "estimand": "ratio of scene-weighted arithmetic means, all repeats retained"
+      }
+    },
+    "per_grid": {
+      "16": {
+        "static": {
+          "n_scenes": 255,
+          "flat_us": {
+            "n": 255,
+            "mean": 720.7091588235294,
+            "median": 712.85,
+            "p10": 668.1427666666667,
+            "p90": 782.7071
+          },
+          "geo_us": {
+            "n": 255,
+            "mean": 383.22770522875817,
+            "median": 386.4943333333333,
+            "p10": 226.6636,
+            "p90": 548.3433
+          },
+          "saving_us": 337.48145359477115,
+          "saving_fraction": 0.4682630288002291,
+          "saving_fraction_paired_scene_bootstrap_95ci": [
+            0.4467178231537996,
+            0.4891461934135542
+          ],
+          "bootstrap_replicates": 2000,
+          "estimand": "ratio of scene-weighted arithmetic means, all repeats retained"
+        },
+        "dynamic": {
+          "n_scenes": 255,
+          "flat_us": {
+            "n": 255,
+            "mean": 774.2798888888888,
+            "median": 768.8155,
+            "p10": 746.8833,
+            "p90": 801.4107666666667
+          },
+          "geo_us": {
+            "n": 255,
+            "mean": 491.1468124183006,
+            "median": 484.0738333333333,
+            "p10": 334.90863333333334,
+            "p90": 651.5983666666666
+          },
+          "saving_us": 283.13307647058826,
+          "saving_fraction": 0.3656727761286571,
+          "saving_fraction_paired_scene_bootstrap_95ci": [
+            0.3348332948256367,
+            0.3903325801535379
+          ],
+          "bootstrap_replicates": 2000,
+          "estimand": "ratio of scene-weighted arithmetic means, all repeats retained"
+        },
+        "setup": {
+          "flat": {
+            "prepare_capture_first_replay_us": 8127.243,
+            "n_graphs": 1,
+            "budgets": [
+              39
+            ],
+            "driver_free_memory_delta_bytes": 12582912,
+            "memory_note": "coarse process/device diagnostic, not exact graph metadata bytes"
+          },
+          "geo": {
+            "prepare_capture_first_replay_us": 80380.979,
+            "n_graphs": 29,
+            "budgets": [
+              3,
+              4,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13,
+              15,
+              16,
+              17,
+              19,
+              20,
+              21,
+              22,
+              24,
+              25,
+              26,
+              28,
+              29,
+              30,
+              31,
+              33,
+              34,
+              35,
+              37,
+              38,
+              42
+            ],
+            "driver_free_memory_delta_bytes": 10485760,
+            "memory_note": "coarse process/device diagnostic, not exact graph metadata bytes"
+          }
+        },
+        "amortization": [
+          {
+            "frames": 1,
+            "mode": "static",
+            "flat_total_us": 458158.0389627451,
+            "geo_total_us": 530098.9197875817,
+            "saving_fraction": -0.15702197649463567,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 1,
+            "mode": "dynamic",
+            "flat_total_us": 458145.8448888889,
+            "geo_total_us": 530116.4478124182,
+            "saving_fraction": -0.15709103056687956,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 10,
+            "mode": "static",
+            "flat_total_us": 464644.42139215686,
+            "geo_total_us": 533547.9691346405,
+            "saving_fraction": -0.1482930700771925,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 10,
+            "mode": "dynamic",
+            "flat_total_us": 465114.3638888889,
+            "geo_total_us": 534536.769124183,
+            "saving_fraction": -0.14925878584966346,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 100,
+            "mode": "static",
+            "flat_total_us": 529508.2456862745,
+            "geo_total_us": 568038.4626052288,
+            "saving_fraction": -0.07276603760724587,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 100,
+            "mode": "dynamic",
+            "flat_total_us": 534799.5538888889,
+            "geo_total_us": 578739.9822418301,
+            "saving_fraction": -0.08216242521786077,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 1000,
+            "mode": "static",
+            "flat_total_us": 1178146.488627451,
+            "geo_total_us": 912943.3973111111,
+            "saving_fraction": 0.22510196641616564,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 1000,
+            "mode": "dynamic",
+            "flat_total_us": 1231651.4538888887,
+            "geo_total_us": 1020772.1134183006,
+            "saving_fraction": 0.17121673490072642,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          }
+        ]
+      },
+      "24": {
+        "static": {
+          "n_scenes": 255,
+          "flat_us": {
+            "n": 255,
+            "mean": 723.4862999999998,
+            "median": 702.4608333333333,
+            "p10": 684.9388666666666,
+            "p90": 832.8081
+          },
+          "geo_us": {
+            "n": 255,
+            "mean": 583.2337771241829,
+            "median": 558.0011666666667,
+            "p10": 338.97516666666667,
+            "p90": 832.4787333333334
+          },
+          "saving_us": 140.252522875817,
+          "saving_fraction": 0.19385650132672438,
+          "saving_fraction_paired_scene_bootstrap_95ci": [
+            0.16402126600435124,
+            0.22468100535689062
+          ],
+          "bootstrap_replicates": 2000,
+          "estimand": "ratio of scene-weighted arithmetic means, all repeats retained"
+        },
+        "dynamic": {
+          "n_scenes": 255,
+          "flat_us": {
+            "n": 255,
+            "mean": 784.6898176470588,
+            "median": 781.7909999999999,
+            "p10": 759.3475333333333,
+            "p90": 811.1071999999999
+          },
+          "geo_us": {
+            "n": 255,
+            "mean": 682.418345751634,
+            "median": 668.846,
+            "p10": 465.4207666666667,
+            "p90": 910.2214
+          },
+          "saving_us": 102.27147189542485,
+          "saving_fraction": 0.13033362941052584,
+          "saving_fraction_paired_scene_bootstrap_95ci": [
+            0.10388809700873315,
+            0.15792931758690265
+          ],
+          "bootstrap_replicates": 2000,
+          "estimand": "ratio of scene-weighted arithmetic means, all repeats retained"
+        },
+        "setup": {
+          "geo": {
+            "prepare_capture_first_replay_us": 129909.89,
+            "n_graphs": 37,
+            "budgets": [
+              10,
+              12,
+              13,
+              15,
+              16,
+              17,
+              19,
+              20,
+              21,
+              22,
+              24,
+              25,
+              26,
+              28,
+              29,
+              30,
+              31,
+              33,
+              34,
+              35,
+              37,
+              38,
+              39,
+              40,
+              42,
+              43,
+              44,
+              46,
+              47,
+              48,
+              50,
+              51,
+              52,
+              53,
+              55,
+              56,
+              57
+            ],
+            "driver_free_memory_delta_bytes": 8388608,
+            "memory_note": "coarse process/device diagnostic, not exact graph metadata bytes"
+          },
+          "flat": {
+            "prepare_capture_first_replay_us": 3957.709,
+            "n_graphs": 1,
+            "budgets": [
+              39
+            ],
+            "driver_free_memory_delta_bytes": 2097152,
+            "memory_note": "coarse process/device diagnostic, not exact graph metadata bytes"
+          }
+        },
+        "amortization": [
+          {
+            "frames": 1,
+            "mode": "static",
+            "flat_total_us": 25706.76229215686,
+            "geo_total_us": 151550.01216535945,
+            "saving_fraction": -4.89533642716249,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 1,
+            "mode": "dynamic",
+            "flat_total_us": 25688.10181764706,
+            "geo_total_us": 151538.01134575164,
+            "saving_fraction": -4.899151771566436,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 10,
+            "mode": "static",
+            "flat_total_us": 32218.13899215686,
+            "geo_total_us": 156799.1161594771,
+            "saving_fraction": -3.866796191972729,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 10,
+            "mode": "dynamic",
+            "flat_total_us": 32750.310176470586,
+            "geo_total_us": 157679.77645751633,
+            "saving_fraction": -3.8146040635304015,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 100,
+            "mode": "static",
+            "flat_total_us": 97331.90599215684,
+            "geo_total_us": 209290.15610065358,
+            "saving_fraction": -1.1502728624005218,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 100,
+            "mode": "dynamic",
+            "flat_total_us": 103372.39376470588,
+            "geo_total_us": 219097.4275751634,
+            "saving_fraction": -1.1194965076833614,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 1000,
+            "mode": "static",
+            "flat_total_us": 748469.5759921566,
+            "geo_total_us": 734200.5555124182,
+            "saving_fraction": 0.019064262513040386,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 1000,
+            "mode": "dynamic",
+            "flat_total_us": 809593.2296470589,
+            "geo_total_us": 833273.938751634,
+            "saving_fraction": -0.029250132334849965,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          }
+        ]
+      },
+      "32": {
+        "static": {
+          "n_scenes": 252,
+          "flat_us": {
+            "n": 252,
+            "mean": 772.0243108465609,
+            "median": 757.2478333333333,
+            "p10": 739.22295,
+            "p90": 816.0397333333333
+          },
+          "geo_us": {
+            "n": 252,
+            "mean": 840.9169219576719,
+            "median": 811.3748333333333,
+            "p10": 481.86785000000003,
+            "p90": 1187.6984166666666
+          },
+          "saving_us": -68.89261111111112,
+          "saving_fraction": -0.0892363234463005,
+          "saving_fraction_paired_scene_bootstrap_95ci": [
+            -0.13088853454063734,
+            -0.04734044013879291
+          ],
+          "bootstrap_replicates": 2000,
+          "estimand": "ratio of scene-weighted arithmetic means, all repeats retained"
+        },
+        "dynamic": {
+          "n_scenes": 252,
+          "flat_us": {
+            "n": 252,
+            "mean": 880.1554761904762,
+            "median": 875.0473333333333,
+            "p10": 854.2748666666666,
+            "p90": 900.1849500000001
+          },
+          "geo_us": {
+            "n": 252,
+            "mean": 991.1026342592592,
+            "median": 965.0701666666666,
+            "p10": 664.90975,
+            "p90": 1329.4840333333334
+          },
+          "saving_us": -110.94715806878308,
+          "saving_fraction": -0.1260540450750689,
+          "saving_fraction_paired_scene_bootstrap_95ci": [
+            -0.16283190261754374,
+            -0.08937416301974765
+          ],
+          "bootstrap_replicates": 2000,
+          "estimand": "ratio of scene-weighted arithmetic means, all repeats retained"
+        },
+        "setup": {
+          "geo": {
+            "prepare_capture_first_replay_us": 235093.815,
+            "n_graphs": 52,
+            "budgets": [
+              13,
+              15,
+              16,
+              17,
+              19,
+              20,
+              21,
+              22,
+              24,
+              25,
+              26,
+              28,
+              29,
+              30,
+              31,
+              33,
+              34,
+              35,
+              37,
+              38,
+              39,
+              40,
+              42,
+              43,
+              44,
+              46,
+              47,
+              48,
+              50,
+              51,
+              52,
+              53,
+              55,
+              56,
+              57,
+              59,
+              60,
+              61,
+              62,
+              64,
+              65,
+              66,
+              68,
+              69,
+              70,
+              71,
+              73,
+              74,
+              75,
+              78,
+              79,
+              82
+            ],
+            "driver_free_memory_delta_bytes": 23068672,
+            "memory_note": "coarse process/device diagnostic, not exact graph metadata bytes"
+          },
+          "flat": {
+            "prepare_capture_first_replay_us": 4376.606,
+            "n_graphs": 1,
+            "budgets": [
+              39
+            ],
+            "driver_free_memory_delta_bytes": 0,
+            "memory_note": "coarse process/device diagnostic, not exact graph metadata bytes"
+          }
+        },
+        "amortization": [
+          {
+            "frames": 1,
+            "mode": "static",
+            "flat_total_us": 24616.864533068787,
+            "geo_total_us": 255443.5705410053,
+            "saving_fraction": -9.376771184561626,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 1,
+            "mode": "dynamic",
+            "flat_total_us": 24657.39447619048,
+            "geo_total_us": 255485.55063425927,
+            "saving_fraction": -9.361417175726318,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 10,
+            "mode": "static",
+            "flat_total_us": 31565.083330687834,
+            "geo_total_us": 263011.82283862436,
+            "saving_fraction": -7.33236586399004,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 10,
+            "mode": "dynamic",
+            "flat_total_us": 32578.793761904763,
+            "geo_total_us": 264405.4743425926,
+            "saving_fraction": -7.115876734876808,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 100,
+            "mode": "static",
+            "flat_total_us": 101047.2713068783,
+            "geo_total_us": 338694.3458148148,
+            "saving_fraction": -2.3518405933615725,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 100,
+            "mode": "dynamic",
+            "flat_total_us": 111792.78661904762,
+            "geo_total_us": 353604.71142592595,
+            "saving_fraction": -2.1630369196439516,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 1000,
+            "mode": "static",
+            "flat_total_us": 795869.1510687831,
+            "geo_total_us": 1095519.5755767196,
+            "saving_fraction": -0.3765071483239826,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          },
+          {
+            "frames": 1000,
+            "mode": "dynamic",
+            "flat_total_us": 903932.7151904763,
+            "geo_total_us": 1245597.0822592592,
+            "saving_fraction": -0.37797544145394446,
+            "scope": "shared load/first kernel use plus workload-specific bank setup plus measured frames; static includes one mean scene preparation"
+          }
+        ]
+      }
+    },
+    "scope": {
+      "static": "resident scene, cached integer budget, graph lookup, replay, synchronization",
+      "dynamic": "CPU float32 seed/mask input, packing, pinned staging, H2D copy, graph lookup, replay, synchronization; geo also mask conversion, source extraction, native BFS, ceil policy",
+      "setup": "within an initialized CUDA process; model loading and shared kernel first compilation measured separately; graph bank has workload-specific observed budgets",
+      "excluded": "renderer/engine scheduling, GPU-origin readback, disk I/O per frame, cold process/CUDA context initialization, display presentation",
+      "primary_estimator": "ratio of scene-weighted arithmetic mean times, directly timed paired frames",
+      "eligibility": "Dgeo <= 2G, identical to the frozen audit and original Branch O; Dgeo <= 2 retained",
+      "parity_reference_precision": "TF32 disabled; IEEE FP32"
+    }
+  }
+}

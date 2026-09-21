@@ -1,0 +1,332 @@
+{
+  "arm": "baseline",
+  "seed": 1,
+  "training": {
+    "status": "archived_baseline",
+    "checkpoint_sha256": "9043274ec3faa27d4c54c61d442ea16ba26ef1cb4d8ae19b1dc0b6362530b12d"
+  },
+  "parameters": 5683,
+  "evaluation": {
+    "original": {
+      "aggregate_knee": 49,
+      "aggregate_floor": 0.030052858009867123,
+      "aggregate_c1": 0.9162892622352082,
+      "n_eligible": 251,
+      "tail_attained": 232,
+      "tail_ceiling": 0.9243027888446215,
+      "tail_conditional_ratios": {
+        "dgeo": {
+          "n": 232,
+          "mean": 0.8457620558166715,
+          "std": 0.10872610977062304,
+          "cv": 0.12855401708183353
+        },
+        "dfree": {
+          "n": 232,
+          "mean": 1.6398107518747067,
+          "std": 1.2878186857689295,
+          "cv": 0.7853459213489339
+        },
+        "deuc": {
+          "n": 232,
+          "mean": 1.4235870470584733,
+          "std": 1.079266725422409,
+          "cv": 0.7581318807673013
+        }
+      },
+      "frozen_original_calibration": {
+        "flat": {
+          "mean_steps": 65,
+          "actual_tail_quality_coverage": 0.896,
+          "knee_service_coverage": 0.896,
+          "beyond_horizon": 0
+        },
+        "geo": {
+          "mean_steps": 50.776,
+          "actual_tail_quality_coverage": 0.912,
+          "knee_service_coverage": 0.92,
+          "beyond_horizon": 0
+        },
+        "n": 125,
+        "saving_fraction": 0.21883076923076916,
+        "actual_coverage_difference_pp": 1.6000000000000014,
+        "calibration": "original pool even indices only; .95 attained-scene quantile, not unconditional guarantee",
+        "flat_T": 65,
+        "geo_c": 0.96
+      },
+      "normalization_variance": 0.03085869364540441,
+      "native_normalization": {
+        "aggregate_knee": 49,
+        "aggregate_floor": 0.030052858986891806,
+        "per_metric": {
+          "knee_mean": {
+            "converged": 247,
+            "n": 251,
+            "ceiling": 0.9840637450199203,
+            "ratios": {
+              "dgeo": {
+                "n": 247,
+                "mean": 0.6856039259360915,
+                "std": 0.1282434553310395,
+                "cv": 0.1870518100606584
+              },
+              "dfree": {
+                "n": 247,
+                "mean": 1.3464899886654822,
+                "std": 1.046323881816628,
+                "cv": 0.7770751291315939
+              },
+              "deuc": {
+                "n": 247,
+                "mean": 1.16648344789499,
+                "std": 0.8654243142528569,
+                "cv": 0.7419087821731053
+              }
+            }
+          },
+          "knee_tail": {
+            "converged": 232,
+            "n": 251,
+            "ceiling": 0.9243027888446215,
+            "ratios": {
+              "dgeo": {
+                "n": 232,
+                "mean": 0.8457620558166715,
+                "std": 0.10872610977062304,
+                "cv": 0.12855401708183353
+              },
+              "dfree": {
+                "n": 232,
+                "mean": 1.6398107518747067,
+                "std": 1.2878186857689295,
+                "cv": 0.7853459213489339
+              },
+              "deuc": {
+                "n": 232,
+                "mean": 1.4235870470584733,
+                "std": 1.079266725422409,
+                "cv": 0.7581318807673013
+              }
+            }
+          }
+        },
+        "n_nonfinite_scenes": 0
+      },
+      "input_sha256": "706807e1f1fdf31e3c13270038e69c7ce769b0b475ab8347b7511a79f193003d"
+    },
+    "diagnostic": {
+      "aggregate_knee": 55,
+      "aggregate_floor": 0.03130709066366685,
+      "aggregate_c1": 1.0493367118795647,
+      "n_eligible": 251,
+      "tail_attained": 237,
+      "tail_ceiling": 0.9442231075697212,
+      "tail_conditional_ratios": {
+        "dgeo": {
+          "n": 237,
+          "mean": 0.8496333872252125,
+          "std": 0.1092037911943234,
+          "cv": 0.12853048483766413
+        },
+        "dfree": {
+          "n": 237,
+          "mean": 1.6496158397199288,
+          "std": 1.5525949707950384,
+          "cv": 0.9411857799926542
+        },
+        "deuc": {
+          "n": 237,
+          "mean": 1.4476188004760215,
+          "std": 1.451661809729399,
+          "cv": 1.0027928687110501
+        }
+      },
+      "frozen_original_calibration": {
+        "flat": {
+          "mean_steps": 65,
+          "actual_tail_quality_coverage": 0.9043824701195219,
+          "knee_service_coverage": 0.9043824701195219,
+          "beyond_horizon": 0
+        },
+        "geo": {
+          "mean_steps": 49.29482071713147,
+          "actual_tail_quality_coverage": 0.9322709163346613,
+          "knee_service_coverage": 0.9322709163346613,
+          "beyond_horizon": 0
+        },
+        "n": 251,
+        "saving_fraction": 0.2416181428133619,
+        "actual_coverage_difference_pp": 2.7888446215139417,
+        "calibration": "original pool even indices only; .95 attained-scene quantile, not unconditional guarantee",
+        "flat_T": 65,
+        "geo_c": 0.96
+      },
+      "normalization_variance": 0.03085869364540441,
+      "native_normalization": {
+        "aggregate_knee": 55,
+        "aggregate_floor": 0.03142719899187796,
+        "per_metric": {
+          "knee_mean": {
+            "converged": 244,
+            "n": 251,
+            "ceiling": 0.9721115537848606,
+            "ratios": {
+              "dgeo": {
+                "n": 244,
+                "mean": 0.687141188236263,
+                "std": 0.14087735497166579,
+                "cv": 0.2050195176529387
+              },
+              "dfree": {
+                "n": 244,
+                "mean": 1.300682978652901,
+                "std": 1.1806551961930798,
+                "cv": 0.9077194178522022
+              },
+              "deuc": {
+                "n": 244,
+                "mean": 1.141310694959671,
+                "std": 1.111266631626285,
+                "cv": 0.9736758242378096
+              }
+            }
+          },
+          "knee_tail": {
+            "converged": 237,
+            "n": 251,
+            "ceiling": 0.9442231075697212,
+            "ratios": {
+              "dgeo": {
+                "n": 237,
+                "mean": 0.8496813350579705,
+                "std": 0.1091773831936725,
+                "cv": 0.12849215192684413
+              },
+              "dfree": {
+                "n": 237,
+                "mean": 1.649747696260013,
+                "std": 1.5526395061433935,
+                "cv": 0.9411375507074419
+              },
+              "deuc": {
+                "n": 237,
+                "mean": 1.4477352450648928,
+                "std": 1.4516996972749798,
+                "cv": 1.0027383820512772
+              }
+            }
+          }
+        },
+        "n_nonfinite_scenes": 0
+      },
+      "input_sha256": "a8b1b9af56c9c07641d8e750cdf84392f293fa79f8239c7a93e6a66678e71786"
+    },
+    "confirmation": {
+      "aggregate_knee": 47,
+      "aggregate_floor": 0.0126883589992201,
+      "aggregate_c1": 0.8867270985334218,
+      "n_eligible": 252,
+      "tail_attained": 241,
+      "tail_ceiling": 0.9563492063492064,
+      "tail_conditional_ratios": {
+        "dgeo": {
+          "n": 241,
+          "mean": 0.8463902288121798,
+          "std": 0.10883150641394183,
+          "cv": 0.12858313188075843
+        },
+        "dfree": {
+          "n": 241,
+          "mean": 1.6260825448803662,
+          "std": 1.0563097401113275,
+          "cv": 0.6496040089951535
+        },
+        "deuc": {
+          "n": 241,
+          "mean": 1.4141409391666324,
+          "std": 0.9014479268910969,
+          "cv": 0.6374526766917089
+        }
+      },
+      "frozen_original_calibration": {
+        "flat": {
+          "mean_steps": 65,
+          "actual_tail_quality_coverage": 0.8968253968253969,
+          "knee_service_coverage": 0.8968253968253969,
+          "beyond_horizon": 0
+        },
+        "geo": {
+          "mean_steps": 50.62301587301587,
+          "actual_tail_quality_coverage": 0.9523809523809523,
+          "knee_service_coverage": 0.9523809523809523,
+          "beyond_horizon": 0
+        },
+        "n": 252,
+        "saving_fraction": 0.22118437118437118,
+        "actual_coverage_difference_pp": 5.5555555555555465,
+        "calibration": "original pool even indices only; .95 attained-scene quantile, not unconditional guarantee",
+        "flat_T": 65,
+        "geo_c": 0.96
+      },
+      "normalization_variance": 0.03085869364540441,
+      "native_normalization": {
+        "aggregate_knee": 47,
+        "aggregate_floor": 0.012774781556800008,
+        "per_metric": {
+          "knee_mean": {
+            "converged": 246,
+            "n": 252,
+            "ceiling": 0.9761904761904762,
+            "ratios": {
+              "dgeo": {
+                "n": 246,
+                "mean": 0.6982863142161186,
+                "std": 0.13440504604420064,
+                "cv": 0.19247841939316954
+              },
+              "dfree": {
+                "n": 246,
+                "mean": 1.3222024580058875,
+                "std": 0.8356168475644618,
+                "cv": 0.6319885752025587
+              },
+              "deuc": {
+                "n": 246,
+                "mean": 1.1498200173421391,
+                "std": 0.7075863847304649,
+                "cv": 0.6153888209096261
+              }
+            }
+          },
+          "knee_tail": {
+            "converged": 241,
+            "n": 252,
+            "ceiling": 0.9563492063492064,
+            "ratios": {
+              "dgeo": {
+                "n": 241,
+                "mean": 0.8466084508629894,
+                "std": 0.10903619816127688,
+                "cv": 0.12879176678443377
+              },
+              "dfree": {
+                "n": 241,
+                "mean": 1.6264934839614804,
+                "std": 1.056381070781373,
+                "cv": 0.6494837398354993
+              },
+              "deuc": {
+                "n": 241,
+                "mean": 1.4145330007124146,
+                "std": 0.901588087685654,
+                "cv": 0.6373750822579457
+              }
+            }
+          }
+        },
+        "n_nonfinite_scenes": 0
+      },
+      "input_sha256": "d790b5fa354aa4ae2f7b41bc26c38d1f9602e328e81a2fd0293961852a2cc09e"
+    }
+  }
+}

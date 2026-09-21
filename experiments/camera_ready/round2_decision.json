@@ -1,0 +1,23 @@
+{
+  "selected_arms": ["width", "duration"],
+  "seeds": [0, 1, 2],
+  "grid": 48,
+  "width": {"channels": 24, "hidden": 192, "iterations": 20000, "learning_rate": 0.001},
+  "duration": {"channels": 12, "hidden": 96, "iterations": 40000, "learning_rate": 0.001, "resume_from": "baseline 20000-iteration model plus optimizer and RNG"},
+  "training_cap": 152,
+  "evaluation_cap": 152,
+  "theta": 0.05,
+  "confirmation_pool_seed": 20260914,
+  "confirmation_seen_when_selecting": false,
+  "diagnostic_basis": {
+    "seed0_train_tail_coverage": 0.30177514792899407,
+    "seed0_original_tail_coverage": 0.3147410358565737,
+    "seed0_new_diagnostic_tail_coverage": 0.3107569721115538,
+    "original_prefix_differences_all_five_seeds": 0.0,
+    "failed_original_and_diagnostic_aggregate_outcomes_rescued_at_304": 0,
+    "nonfinite_evaluation_scenes_at_304": 0,
+    "interpretation": "Residual fitting/optimization difficulty and size sensitivity justify testing duration and width separately. These observations do not establish either cause. Seed4 additionally has a substantial train/held-out gap."
+  },
+  "not_selected": ["learning-rate sweep", "combined interventions", "threshold relaxation", "seed replacement", "Branch N gamma sweep"],
+  "limits": "Equal iterations are not equal training compute. Paired intervention estimates concern seeds 0/1/2, not a five-seed rescue claim. Original five-seed outcomes remain unchanged."
+}

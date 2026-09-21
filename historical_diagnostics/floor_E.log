@@ -1,0 +1,11 @@
+E's task, G=64: D_geo mean=73.1 max=174 min=9
+  reachable fraction of grid: mean=0.719 min=0.013 | scenes with <10% reachable: 25/512
+  scenes with D_geo<10 (seed sealed in a pocket): 1/512
+  target var over mask = 0.03214   (NMSE divides by this)
+
+--- E's exact config (cap=306 global, 1500 iters) ---
+  iters=1500 (E's setting) cap=306  floor=0.3536 @T=201  FAILS H2 LINE  [490s]
+
+--- more training, same cap ---
+  iters=6000               cap=306  floor=0.0600 @T=164  weak  [2962s]
+  iters=20000              cap=306  floor=0.0092 @T=165  SOLVED  [8838s]

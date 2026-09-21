@@ -1,0 +1,4 @@
+G=64 cap=542 D_geo_mean=158.0  (H2 fail line: NMSE>=0.25)
+
+--- training budget at E's capacity (C=12,h=96) ---
+  iters=1500 batch=12          params=  5683  floor=0.0109 @T=530  SOLVED  [840s]

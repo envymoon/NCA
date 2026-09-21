@@ -1,0 +1,20 @@
+{
+  "original": {
+    "seed": 1,
+    "native_variance": 0.03085869364540441,
+    "input_sha256": "706807e1f1fdf31e3c13270038e69c7ce769b0b475ab8347b7511a79f193003d",
+    "Dgeo_mean": 53.4765625
+  },
+  "diagnostic": {
+    "seed": 20260913,
+    "native_variance": 0.030740758405135703,
+    "input_sha256": "a8b1b9af56c9c07641d8e750cdf84392f293fa79f8239c7a93e6a66678e71786",
+    "Dgeo_mean": 52.4140625
+  },
+  "confirmation": {
+    "seed": 20260914,
+    "native_variance": 0.030649932102368903,
+    "input_sha256": "d790b5fa354aa4ae2f7b41bc26c38d1f9602e328e81a2fd0293961852a2cc09e",
+    "Dgeo_mean": 53.00390625
+  }
+}

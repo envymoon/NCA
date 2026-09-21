@@ -1,0 +1,5496 @@
+{
+  "reference_variance": 0.03085869364540441,
+  "confirmation_pool_evaluated": false,
+  "units": [
+    {
+      "seed": 0,
+      "pool": "train",
+      "checkpoint_sha256": "3bbba0bbfad222015d9f1cef1f0f62e594623c46e5ba02b153a7b68fc873b966",
+      "input_sha256": "4519b27e1ac91885212866315d421d6b54b8458a193c0973cc367564f77eeb54",
+      "native_variance": 0.027355145664022994,
+      "prefix_max_difference": null,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 59,
+          "aggregate_floor": 0.04612138425000012,
+          "aggregate_raw_min": 0.046106902713290765,
+          "aggregate_raw_min_T": 75,
+          "aggregate_final": 0.05151876208947215,
+          "n_eligible": 507,
+          "tail_attained": 153,
+          "tail_attainment_fraction": 0.30177514792899407,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.1952662721893491,
+            "96": 0.20907297830374755,
+            "152": 0.1222879684418146
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 108,
+                "tail_attainment_fraction": 0.45188284518828453
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 41,
+                "tail_attainment_fraction": 0.18385650224215247
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 4,
+                "tail_attainment_fraction": 0.08888888888888889
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 90,
+                "tail_attainment_fraction": 0.40358744394618834
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 47,
+                "tail_attainment_fraction": 0.23857868020304568
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 16,
+                "tail_attainment_fraction": 0.1839080459770115
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 153,
+                "tail_attainment_fraction": 0.30177514792899407
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 59,
+          "aggregate_floor": 0.04612138425000012,
+          "aggregate_raw_min": 0.046106902713290765,
+          "aggregate_raw_min_T": 75,
+          "aggregate_final": 0.06511605412015342,
+          "n_eligible": 507,
+          "tail_attained": 154,
+          "tail_attainment_fraction": 0.3037475345167653,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.1952662721893491,
+            "96": 0.20907297830374755,
+            "152": 0.1222879684418146,
+            "304": 0.007889546351084813
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 109,
+                "tail_attainment_fraction": 0.4560669456066946
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 41,
+                "tail_attainment_fraction": 0.18385650224215247
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 4,
+                "tail_attainment_fraction": 0.08888888888888889
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 90,
+                "tail_attainment_fraction": 0.40358744394618834
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 48,
+                "tail_attainment_fraction": 0.2436548223350254
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 16,
+                "tail_attainment_fraction": 0.1839080459770115
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 154,
+                "tail_attainment_fraction": 0.3037475345167653
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.05202844555424235,
+          "aggregate_raw_min": 0.052012109488714486,
+          "aggregate_raw_min_T": 75,
+          "aggregate_final": 0.058117100486924755,
+          "n_eligible": 507,
+          "tail_attained": 105,
+          "tail_attainment_fraction": 0.20710059171597633,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.14201183431952663,
+            "96": 0.13806706114398423,
+            "152": 0.08875739644970414
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 73,
+                "tail_attainment_fraction": 0.3054393305439331
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 28,
+                "tail_attainment_fraction": 0.12556053811659193
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 4,
+                "tail_attainment_fraction": 0.08888888888888889
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 63,
+                "tail_attainment_fraction": 0.2825112107623318
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 35,
+                "tail_attainment_fraction": 0.17766497461928935
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 7,
+                "tail_attainment_fraction": 0.08045977011494253
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.20710059171597633
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.05202844555424235,
+          "aggregate_raw_min": 0.052012109488714486,
+          "aggregate_raw_min_T": 75,
+          "aggregate_final": 0.07345588454336394,
+          "n_eligible": 507,
+          "tail_attained": 105,
+          "tail_attainment_fraction": 0.20710059171597633,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.14201183431952663,
+            "96": 0.13806706114398423,
+            "152": 0.08875739644970414,
+            "304": 0.0019723865877712033
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 73,
+                "tail_attainment_fraction": 0.3054393305439331
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 28,
+                "tail_attainment_fraction": 0.12556053811659193
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 4,
+                "tail_attainment_fraction": 0.08888888888888889
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 63,
+                "tail_attainment_fraction": 0.2825112107623318
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 35,
+                "tail_attainment_fraction": 0.17766497461928935
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 7,
+                "tail_attainment_fraction": 0.08045977011494253
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.20710059171597633
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "pool": "original",
+      "checkpoint_sha256": "3bbba0bbfad222015d9f1cef1f0f62e594623c46e5ba02b153a7b68fc873b966",
+      "input_sha256": "706807e1f1fdf31e3c13270038e69c7ce769b0b475ab8347b7511a79f193003d",
+      "native_variance": 0.03085869364540441,
+      "prefix_max_difference": 0.0,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.08189098894945346,
+          "aggregate_raw_min": 0.08187659013856319,
+          "aggregate_raw_min_T": 69,
+          "aggregate_final": 0.08764654811602668,
+          "n_eligible": 251,
+          "tail_attained": 79,
+          "tail_attainment_fraction": 0.3147410358565737,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.199203187250996,
+            "96": 0.22310756972111553,
+            "152": 0.11155378486055777
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 53,
+                "tail_attainment_fraction": 0.5
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 24,
+                "tail_attainment_fraction": 0.20869565217391303
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 2,
+                "tail_attainment_fraction": 0.06666666666666667
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 52,
+                "tail_attainment_fraction": 0.5148514851485149
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 23,
+                "tail_attainment_fraction": 0.21495327102803738
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 4,
+                "tail_attainment_fraction": 0.09302325581395349
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 79,
+                "tail_attainment_fraction": 0.3147410358565737
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.08189098894945346,
+          "aggregate_raw_min": 0.08187659013856319,
+          "aggregate_raw_min_T": 69,
+          "aggregate_final": 0.10182073334726738,
+          "n_eligible": 251,
+          "tail_attained": 79,
+          "tail_attainment_fraction": 0.3147410358565737,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.199203187250996,
+            "96": 0.22310756972111553,
+            "152": 0.11155378486055777,
+            "304": 0.01593625498007968
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 53,
+                "tail_attainment_fraction": 0.5
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 24,
+                "tail_attainment_fraction": 0.20869565217391303
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 2,
+                "tail_attainment_fraction": 0.06666666666666667
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 52,
+                "tail_attainment_fraction": 0.5148514851485149
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 23,
+                "tail_attainment_fraction": 0.21495327102803738
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 4,
+                "tail_attainment_fraction": 0.09302325581395349
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 79,
+                "tail_attainment_fraction": 0.3147410358565737
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.08189098894945346,
+          "aggregate_raw_min": 0.08187659013856319,
+          "aggregate_raw_min_T": 69,
+          "aggregate_final": 0.08764654811602668,
+          "n_eligible": 251,
+          "tail_attained": 79,
+          "tail_attainment_fraction": 0.3147410358565737,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.199203187250996,
+            "96": 0.22310756972111553,
+            "152": 0.11155378486055777
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 53,
+                "tail_attainment_fraction": 0.5
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 24,
+                "tail_attainment_fraction": 0.20869565217391303
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 2,
+                "tail_attainment_fraction": 0.06666666666666667
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 52,
+                "tail_attainment_fraction": 0.5148514851485149
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 23,
+                "tail_attainment_fraction": 0.21495327102803738
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 4,
+                "tail_attainment_fraction": 0.09302325581395349
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 79,
+                "tail_attainment_fraction": 0.3147410358565737
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.08189098894945346,
+          "aggregate_raw_min": 0.08187659013856319,
+          "aggregate_raw_min_T": 69,
+          "aggregate_final": 0.10182073334726738,
+          "n_eligible": 251,
+          "tail_attained": 79,
+          "tail_attainment_fraction": 0.3147410358565737,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.199203187250996,
+            "96": 0.22310756972111553,
+            "152": 0.11155378486055777,
+            "304": 0.01593625498007968
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 53,
+                "tail_attainment_fraction": 0.5
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 24,
+                "tail_attainment_fraction": 0.20869565217391303
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 2,
+                "tail_attainment_fraction": 0.06666666666666667
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 52,
+                "tail_attainment_fraction": 0.5148514851485149
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 23,
+                "tail_attainment_fraction": 0.21495327102803738
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 4,
+                "tail_attainment_fraction": 0.09302325581395349
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 79,
+                "tail_attainment_fraction": 0.3147410358565737
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "pool": "diagnostic",
+      "checkpoint_sha256": "3bbba0bbfad222015d9f1cef1f0f62e594623c46e5ba02b153a7b68fc873b966",
+      "input_sha256": "a8b1b9af56c9c07641d8e750cdf84392f293fa79f8239c7a93e6a66678e71786",
+      "native_variance": 0.030740758405135703,
+      "prefix_max_difference": null,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.061947161237185355,
+          "aggregate_raw_min": 0.06193631786300102,
+          "aggregate_raw_min_T": 74,
+          "aggregate_final": 0.06763748457888141,
+          "n_eligible": 251,
+          "tail_attained": 78,
+          "tail_attainment_fraction": 0.3107569721115538,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.20717131474103587,
+            "96": 0.2151394422310757,
+            "152": 0.14741035856573706
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 57,
+                "tail_attainment_fraction": 0.5
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 20,
+                "tail_attainment_fraction": 0.18518518518518517
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 1,
+                "tail_attainment_fraction": 0.034482758620689655
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 50,
+                "tail_attainment_fraction": 0.45454545454545453
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 22,
+                "tail_attainment_fraction": 0.23655913978494625
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 6,
+                "tail_attainment_fraction": 0.125
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 78,
+                "tail_attainment_fraction": 0.3107569721115538
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.061947161237185355,
+          "aggregate_raw_min": 0.06193631786300102,
+          "aggregate_raw_min_T": 74,
+          "aggregate_final": 0.08217111781414133,
+          "n_eligible": 251,
+          "tail_attained": 78,
+          "tail_attainment_fraction": 0.3107569721115538,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.20717131474103587,
+            "96": 0.2151394422310757,
+            "152": 0.14741035856573706,
+            "304": 0.00398406374501992
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 57,
+                "tail_attainment_fraction": 0.5
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 20,
+                "tail_attainment_fraction": 0.18518518518518517
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 1,
+                "tail_attainment_fraction": 0.034482758620689655
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 50,
+                "tail_attainment_fraction": 0.45454545454545453
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 22,
+                "tail_attainment_fraction": 0.23655913978494625
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 6,
+                "tail_attainment_fraction": 0.125
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 78,
+                "tail_attainment_fraction": 0.3107569721115538
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.06218481870018877,
+          "aggregate_raw_min": 0.06217393335828092,
+          "aggregate_raw_min_T": 74,
+          "aggregate_final": 0.06789697212298051,
+          "n_eligible": 251,
+          "tail_attained": 76,
+          "tail_attainment_fraction": 0.30278884462151395,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.20318725099601595,
+            "96": 0.21115537848605578,
+            "152": 0.14741035856573706
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 56,
+                "tail_attainment_fraction": 0.49122807017543857
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 19,
+                "tail_attainment_fraction": 0.17592592592592593
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 1,
+                "tail_attainment_fraction": 0.034482758620689655
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 49,
+                "tail_attainment_fraction": 0.44545454545454544
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 21,
+                "tail_attainment_fraction": 0.22580645161290322
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 6,
+                "tail_attainment_fraction": 0.125
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 76,
+                "tail_attainment_fraction": 0.30278884462151395
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.06218481870018877,
+          "aggregate_raw_min": 0.06217393335828092,
+          "aggregate_raw_min_T": 74,
+          "aggregate_final": 0.08248636401549447,
+          "n_eligible": 251,
+          "tail_attained": 76,
+          "tail_attainment_fraction": 0.30278884462151395,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.20318725099601595,
+            "96": 0.21115537848605578,
+            "152": 0.14741035856573706,
+            "304": 0.00398406374501992
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 56,
+                "tail_attainment_fraction": 0.49122807017543857
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 19,
+                "tail_attainment_fraction": 0.17592592592592593
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 1,
+                "tail_attainment_fraction": 0.034482758620689655
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 49,
+                "tail_attainment_fraction": 0.44545454545454544
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 21,
+                "tail_attainment_fraction": 0.22580645161290322
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 6,
+                "tail_attainment_fraction": 0.125
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 76,
+                "tail_attainment_fraction": 0.30278884462151395
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "pool": "train",
+      "checkpoint_sha256": "9043274ec3faa27d4c54c61d442ea16ba26ef1cb4d8ae19b1dc0b6362530b12d",
+      "input_sha256": "4519b27e1ac91885212866315d421d6b54b8458a193c0973cc367564f77eeb54",
+      "native_variance": 0.027355145664022994,
+      "prefix_max_difference": null,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 43,
+          "aggregate_floor": 0.006333453317097337,
+          "aggregate_raw_min": 0.006330491904691371,
+          "aggregate_raw_min_T": 88,
+          "aggregate_final": 0.006875885180420482,
+          "n_eligible": 507,
+          "tail_attained": 478,
+          "tail_attainment_fraction": 0.9428007889546351,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6646942800788954,
+            "96": 0.9428007889546351,
+            "152": 0.9428007889546351
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 232,
+                "tail_attainment_fraction": 0.9707112970711297
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 209,
+                "tail_attainment_fraction": 0.9372197309417041
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 37,
+                "tail_attainment_fraction": 0.8222222222222222
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 218,
+                "tail_attainment_fraction": 0.9775784753363229
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 184,
+                "tail_attainment_fraction": 0.934010152284264
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 76,
+                "tail_attainment_fraction": 0.8735632183908046
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 478,
+                "tail_attainment_fraction": 0.9428007889546351
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 43,
+          "aggregate_floor": 0.006333453317097337,
+          "aggregate_raw_min": 0.006330491904691371,
+          "aggregate_raw_min_T": 88,
+          "aggregate_final": 0.010677436149762798,
+          "n_eligible": 507,
+          "tail_attained": 478,
+          "tail_attainment_fraction": 0.9428007889546351,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6646942800788954,
+            "96": 0.9428007889546351,
+            "152": 0.9428007889546351,
+            "304": 0.893491124260355
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 232,
+                "tail_attainment_fraction": 0.9707112970711297
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 209,
+                "tail_attainment_fraction": 0.9372197309417041
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 37,
+                "tail_attainment_fraction": 0.8222222222222222
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 218,
+                "tail_attainment_fraction": 0.9775784753363229
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 184,
+                "tail_attainment_fraction": 0.934010152284264
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 76,
+                "tail_attainment_fraction": 0.8735632183908046
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 478,
+                "tail_attainment_fraction": 0.9428007889546351
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 45,
+          "aggregate_floor": 0.0071446192853272805,
+          "aggregate_raw_min": 0.007141278611584312,
+          "aggregate_raw_min_T": 88,
+          "aggregate_final": 0.007756523870966703,
+          "n_eligible": 507,
+          "tail_attained": 476,
+          "tail_attainment_fraction": 0.9388560157790927,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.650887573964497,
+            "96": 0.9368836291913215,
+            "152": 0.9368836291913215
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 232,
+                "tail_attainment_fraction": 0.9707112970711297
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 207,
+                "tail_attainment_fraction": 0.9282511210762332
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 37,
+                "tail_attainment_fraction": 0.8222222222222222
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 218,
+                "tail_attainment_fraction": 0.9775784753363229
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 182,
+                "tail_attainment_fraction": 0.9238578680203046
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 76,
+                "tail_attainment_fraction": 0.8735632183908046
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 476,
+                "tail_attainment_fraction": 0.9388560157790927
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 45,
+          "aggregate_floor": 0.0071446192853272805,
+          "aggregate_raw_min": 0.007141278611584312,
+          "aggregate_raw_min_T": 88,
+          "aggregate_final": 0.012044963847074541,
+          "n_eligible": 507,
+          "tail_attained": 477,
+          "tail_attainment_fraction": 0.9408284023668639,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.650887573964497,
+            "96": 0.9368836291913215,
+            "152": 0.9368836291913215,
+            "304": 0.8757396449704142
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 232,
+                "tail_attainment_fraction": 0.9707112970711297
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 208,
+                "tail_attainment_fraction": 0.9327354260089686
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 37,
+                "tail_attainment_fraction": 0.8222222222222222
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 218,
+                "tail_attainment_fraction": 0.9775784753363229
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 183,
+                "tail_attainment_fraction": 0.9289340101522843
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 76,
+                "tail_attainment_fraction": 0.8735632183908046
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 477,
+                "tail_attainment_fraction": 0.9408284023668639
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "pool": "original",
+      "checkpoint_sha256": "9043274ec3faa27d4c54c61d442ea16ba26ef1cb4d8ae19b1dc0b6362530b12d",
+      "input_sha256": "706807e1f1fdf31e3c13270038e69c7ce769b0b475ab8347b7511a79f193003d",
+      "native_variance": 0.03085869364540441,
+      "prefix_max_difference": 0.0,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 49,
+          "aggregate_floor": 0.030052858009867123,
+          "aggregate_raw_min": 0.03000692389332471,
+          "aggregate_raw_min_T": 64,
+          "aggregate_final": 0.044539295939785006,
+          "n_eligible": 251,
+          "tail_attained": 232,
+          "tail_attainment_fraction": 0.9243027888446215,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.649402390438247,
+            "96": 0.9123505976095617,
+            "152": 0.9203187250996016
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9905660377358491
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 106,
+                "tail_attainment_fraction": 0.9217391304347826
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 21,
+                "tail_attainment_fraction": 0.7
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 99,
+                "tail_attainment_fraction": 0.9252336448598131
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 33,
+                "tail_attainment_fraction": 0.7674418604651163
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 232,
+                "tail_attainment_fraction": 0.9243027888446215
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 49,
+          "aggregate_floor": 0.030052858009867123,
+          "aggregate_raw_min": 0.03000692389332471,
+          "aggregate_raw_min_T": 64,
+          "aggregate_final": 0.04854925587824255,
+          "n_eligible": 251,
+          "tail_attained": 232,
+          "tail_attainment_fraction": 0.9243027888446215,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.649402390438247,
+            "96": 0.9123505976095617,
+            "152": 0.9203187250996016,
+            "304": 0.8685258964143426
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9905660377358491
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 106,
+                "tail_attainment_fraction": 0.9217391304347826
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 21,
+                "tail_attainment_fraction": 0.7
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 99,
+                "tail_attainment_fraction": 0.9252336448598131
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 33,
+                "tail_attainment_fraction": 0.7674418604651163
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 232,
+                "tail_attainment_fraction": 0.9243027888446215
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 49,
+          "aggregate_floor": 0.030052858009867123,
+          "aggregate_raw_min": 0.03000692389332471,
+          "aggregate_raw_min_T": 64,
+          "aggregate_final": 0.044539295939785006,
+          "n_eligible": 251,
+          "tail_attained": 232,
+          "tail_attainment_fraction": 0.9243027888446215,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.649402390438247,
+            "96": 0.9123505976095617,
+            "152": 0.9203187250996016
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9905660377358491
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 106,
+                "tail_attainment_fraction": 0.9217391304347826
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 21,
+                "tail_attainment_fraction": 0.7
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 99,
+                "tail_attainment_fraction": 0.9252336448598131
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 33,
+                "tail_attainment_fraction": 0.7674418604651163
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 232,
+                "tail_attainment_fraction": 0.9243027888446215
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 49,
+          "aggregate_floor": 0.030052858009867123,
+          "aggregate_raw_min": 0.03000692389332471,
+          "aggregate_raw_min_T": 64,
+          "aggregate_final": 0.04854925587824255,
+          "n_eligible": 251,
+          "tail_attained": 232,
+          "tail_attainment_fraction": 0.9243027888446215,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.649402390438247,
+            "96": 0.9123505976095617,
+            "152": 0.9203187250996016,
+            "304": 0.8685258964143426
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9905660377358491
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 106,
+                "tail_attainment_fraction": 0.9217391304347826
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 21,
+                "tail_attainment_fraction": 0.7
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 99,
+                "tail_attainment_fraction": 0.9252336448598131
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 33,
+                "tail_attainment_fraction": 0.7674418604651163
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 232,
+                "tail_attainment_fraction": 0.9243027888446215
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "pool": "diagnostic",
+      "checkpoint_sha256": "9043274ec3faa27d4c54c61d442ea16ba26ef1cb4d8ae19b1dc0b6362530b12d",
+      "input_sha256": "a8b1b9af56c9c07641d8e750cdf84392f293fa79f8239c7a93e6a66678e71786",
+      "native_variance": 0.030740758405135703,
+      "prefix_max_difference": null,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 55,
+          "aggregate_floor": 0.031307090530845016,
+          "aggregate_raw_min": 0.03127349359692744,
+          "aggregate_raw_min_T": 91,
+          "aggregate_final": 0.04499693194293286,
+          "n_eligible": 251,
+          "tail_attained": 237,
+          "tail_attainment_fraction": 0.9442231075697212,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6772908366533864,
+            "96": 0.9442231075697212,
+            "152": 0.9362549800796812
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 0.9351851851851852
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 24,
+                "tail_attainment_fraction": 0.8275862068965517
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 85,
+                "tail_attainment_fraction": 0.9139784946236559
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 42,
+                "tail_attainment_fraction": 0.875
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 237,
+                "tail_attainment_fraction": 0.9442231075697212
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 55,
+          "aggregate_floor": 0.031307090530845016,
+          "aggregate_raw_min": 0.03127349359692744,
+          "aggregate_raw_min_T": 91,
+          "aggregate_final": 0.049242203372159565,
+          "n_eligible": 251,
+          "tail_attained": 239,
+          "tail_attainment_fraction": 0.952191235059761,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6772908366533864,
+            "96": 0.9442231075697212,
+            "152": 0.9362549800796812,
+            "304": 0.8764940239043825
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 102,
+                "tail_attainment_fraction": 0.9444444444444444
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 25,
+                "tail_attainment_fraction": 0.8620689655172413
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 86,
+                "tail_attainment_fraction": 0.9247311827956989
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 43,
+                "tail_attainment_fraction": 0.8958333333333334
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 239,
+                "tail_attainment_fraction": 0.952191235059761
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 55,
+          "aggregate_floor": 0.03142719860670695,
+          "aggregate_raw_min": 0.031393472086165275,
+          "aggregate_raw_min_T": 91,
+          "aggregate_final": 0.04516955985536697,
+          "n_eligible": 251,
+          "tail_attained": 237,
+          "tail_attainment_fraction": 0.9442231075697212,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6772908366533864,
+            "96": 0.9442231075697212,
+            "152": 0.9362549800796812
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 0.9351851851851852
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 24,
+                "tail_attainment_fraction": 0.8275862068965517
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 85,
+                "tail_attainment_fraction": 0.9139784946236559
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 42,
+                "tail_attainment_fraction": 0.875
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 237,
+                "tail_attainment_fraction": 0.9442231075697212
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 55,
+          "aggregate_floor": 0.03142719860670695,
+          "aggregate_raw_min": 0.031393472086165275,
+          "aggregate_raw_min_T": 91,
+          "aggregate_final": 0.04943111847842374,
+          "n_eligible": 251,
+          "tail_attained": 239,
+          "tail_attainment_fraction": 0.952191235059761,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6772908366533864,
+            "96": 0.9442231075697212,
+            "152": 0.9362549800796812,
+            "304": 0.8764940239043825
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 102,
+                "tail_attainment_fraction": 0.9444444444444444
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 25,
+                "tail_attainment_fraction": 0.8620689655172413
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 86,
+                "tail_attainment_fraction": 0.9247311827956989
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 43,
+                "tail_attainment_fraction": 0.8958333333333334
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 239,
+                "tail_attainment_fraction": 0.952191235059761
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "pool": "train",
+      "checkpoint_sha256": "f6db57d06ca1d409c4894cabe15a6d714fc9d5ca4586e64c68f5335d962af150",
+      "input_sha256": "4519b27e1ac91885212866315d421d6b54b8458a193c0973cc367564f77eeb54",
+      "native_variance": 0.027355145664022994,
+      "prefix_max_difference": null,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 43,
+          "aggregate_floor": 0.005964435577197946,
+          "aggregate_raw_min": 0.005959656057939355,
+          "aggregate_raw_min_T": 104,
+          "aggregate_final": 0.006208850982602598,
+          "n_eligible": 507,
+          "tail_attained": 495,
+          "tail_attainment_fraction": 0.9763313609467456,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6489151873767258,
+            "96": 0.9585798816568047,
+            "152": 0.9644970414201184
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 236,
+                "tail_attainment_fraction": 0.9874476987447699
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 217,
+                "tail_attainment_fraction": 0.9730941704035875
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 42,
+                "tail_attainment_fraction": 0.9333333333333333
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 221,
+                "tail_attainment_fraction": 0.9910313901345291
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 191,
+                "tail_attainment_fraction": 0.9695431472081218
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 83,
+                "tail_attainment_fraction": 0.9540229885057471
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 495,
+                "tail_attainment_fraction": 0.9763313609467456
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 43,
+          "aggregate_floor": 0.005964435577197946,
+          "aggregate_raw_min": 0.005959656057939355,
+          "aggregate_raw_min_T": 104,
+          "aggregate_final": 0.008068571841022276,
+          "n_eligible": 507,
+          "tail_attained": 495,
+          "tail_attainment_fraction": 0.9763313609467456,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6489151873767258,
+            "96": 0.9585798816568047,
+            "152": 0.9644970414201184,
+            "304": 0.9546351084812623
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 236,
+                "tail_attainment_fraction": 0.9874476987447699
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 217,
+                "tail_attainment_fraction": 0.9730941704035875
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 42,
+                "tail_attainment_fraction": 0.9333333333333333
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 221,
+                "tail_attainment_fraction": 0.9910313901345291
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 191,
+                "tail_attainment_fraction": 0.9695431472081218
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 83,
+                "tail_attainment_fraction": 0.9540229885057471
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 495,
+                "tail_attainment_fraction": 0.9763313609467456
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 44,
+          "aggregate_floor": 0.006728339066285116,
+          "aggregate_raw_min": 0.00672294741366386,
+          "aggregate_raw_min_T": 104,
+          "aggregate_final": 0.007004058319353135,
+          "n_eligible": 507,
+          "tail_attained": 493,
+          "tail_attainment_fraction": 0.9723865877712031,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6173570019723866,
+            "96": 0.9506903353057199,
+            "152": 0.9526627218934911
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 236,
+                "tail_attainment_fraction": 0.9874476987447699
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 216,
+                "tail_attainment_fraction": 0.968609865470852
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 41,
+                "tail_attainment_fraction": 0.9111111111111111
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 221,
+                "tail_attainment_fraction": 0.9910313901345291
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 189,
+                "tail_attainment_fraction": 0.9593908629441624
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 83,
+                "tail_attainment_fraction": 0.9540229885057471
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 493,
+                "tail_attainment_fraction": 0.9723865877712031
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 44,
+          "aggregate_floor": 0.006728339066285116,
+          "aggregate_raw_min": 0.00672294741366386,
+          "aggregate_raw_min_T": 104,
+          "aggregate_final": 0.009101965527861466,
+          "n_eligible": 507,
+          "tail_attained": 493,
+          "tail_attainment_fraction": 0.9723865877712031,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6173570019723866,
+            "96": 0.9506903353057199,
+            "152": 0.9526627218934911,
+            "304": 0.9447731755424064
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 236,
+                "tail_attainment_fraction": 0.9874476987447699
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 216,
+                "tail_attainment_fraction": 0.968609865470852
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 41,
+                "tail_attainment_fraction": 0.9111111111111111
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 221,
+                "tail_attainment_fraction": 0.9910313901345291
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 189,
+                "tail_attainment_fraction": 0.9593908629441624
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 83,
+                "tail_attainment_fraction": 0.9540229885057471
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 493,
+                "tail_attainment_fraction": 0.9723865877712031
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "pool": "original",
+      "checkpoint_sha256": "f6db57d06ca1d409c4894cabe15a6d714fc9d5ca4586e64c68f5335d962af150",
+      "input_sha256": "706807e1f1fdf31e3c13270038e69c7ce769b0b475ab8347b7511a79f193003d",
+      "native_variance": 0.03085869364540441,
+      "prefix_max_difference": 0.0,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 50,
+          "aggregate_floor": 0.014008344558533281,
+          "aggregate_raw_min": 0.013996296938785235,
+          "aggregate_raw_min_T": 141,
+          "aggregate_final": 0.01424810484286354,
+          "n_eligible": 251,
+          "tail_attained": 235,
+          "tail_attainment_fraction": 0.9362549800796812,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6055776892430279,
+            "96": 0.9083665338645418,
+            "152": 0.9123505976095617
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 106,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 109,
+                "tail_attainment_fraction": 0.9478260869565217
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 20,
+                "tail_attainment_fraction": 0.6666666666666666
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 0.9439252336448598
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 33,
+                "tail_attainment_fraction": 0.7674418604651163
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 235,
+                "tail_attainment_fraction": 0.9362549800796812
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 50,
+          "aggregate_floor": 0.014008344558533281,
+          "aggregate_raw_min": 0.013996296938785235,
+          "aggregate_raw_min_T": 141,
+          "aggregate_final": 0.01553688892909122,
+          "n_eligible": 251,
+          "tail_attained": 235,
+          "tail_attainment_fraction": 0.9362549800796812,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6055776892430279,
+            "96": 0.9083665338645418,
+            "152": 0.9123505976095617,
+            "304": 0.9123505976095617
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 106,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 109,
+                "tail_attainment_fraction": 0.9478260869565217
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 20,
+                "tail_attainment_fraction": 0.6666666666666666
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 0.9439252336448598
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 33,
+                "tail_attainment_fraction": 0.7674418604651163
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 235,
+                "tail_attainment_fraction": 0.9362549800796812
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 50,
+          "aggregate_floor": 0.014008344558533281,
+          "aggregate_raw_min": 0.013996296938785235,
+          "aggregate_raw_min_T": 141,
+          "aggregate_final": 0.01424810484286354,
+          "n_eligible": 251,
+          "tail_attained": 235,
+          "tail_attainment_fraction": 0.9362549800796812,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6055776892430279,
+            "96": 0.9083665338645418,
+            "152": 0.9123505976095617
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 106,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 109,
+                "tail_attainment_fraction": 0.9478260869565217
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 20,
+                "tail_attainment_fraction": 0.6666666666666666
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 0.9439252336448598
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 33,
+                "tail_attainment_fraction": 0.7674418604651163
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 235,
+                "tail_attainment_fraction": 0.9362549800796812
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 50,
+          "aggregate_floor": 0.014008344558533281,
+          "aggregate_raw_min": 0.013996296938785235,
+          "aggregate_raw_min_T": 141,
+          "aggregate_final": 0.01553688892909122,
+          "n_eligible": 251,
+          "tail_attained": 235,
+          "tail_attainment_fraction": 0.9362549800796812,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6055776892430279,
+            "96": 0.9083665338645418,
+            "152": 0.9123505976095617,
+            "304": 0.9123505976095617
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 106,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 109,
+                "tail_attainment_fraction": 0.9478260869565217
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 20,
+                "tail_attainment_fraction": 0.6666666666666666
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 0.9439252336448598
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 33,
+                "tail_attainment_fraction": 0.7674418604651163
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 235,
+                "tail_attainment_fraction": 0.9362549800796812
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "pool": "diagnostic",
+      "checkpoint_sha256": "f6db57d06ca1d409c4894cabe15a6d714fc9d5ca4586e64c68f5335d962af150",
+      "input_sha256": "a8b1b9af56c9c07641d8e750cdf84392f293fa79f8239c7a93e6a66678e71786",
+      "native_variance": 0.030740758405135703,
+      "prefix_max_difference": null,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 54,
+          "aggregate_floor": 0.022542883934875135,
+          "aggregate_raw_min": 0.02252211561153672,
+          "aggregate_raw_min_T": 126,
+          "aggregate_final": 0.022726358421095938,
+          "n_eligible": 251,
+          "tail_attained": 240,
+          "tail_attainment_fraction": 0.9561752988047809,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6414342629482072,
+            "96": 0.9322709163346613,
+            "152": 0.9322709163346613
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 113,
+                "tail_attainment_fraction": 0.9912280701754386
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 103,
+                "tail_attainment_fraction": 0.9537037037037037
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 24,
+                "tail_attainment_fraction": 0.8275862068965517
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 89,
+                "tail_attainment_fraction": 0.956989247311828
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 41,
+                "tail_attainment_fraction": 0.8541666666666666
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 240,
+                "tail_attainment_fraction": 0.9561752988047809
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 54,
+          "aggregate_floor": 0.022542883934875135,
+          "aggregate_raw_min": 0.02252211561153672,
+          "aggregate_raw_min_T": 126,
+          "aggregate_final": 0.023119423495245428,
+          "n_eligible": 251,
+          "tail_attained": 240,
+          "tail_attainment_fraction": 0.9561752988047809,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6414342629482072,
+            "96": 0.9322709163346613,
+            "152": 0.9322709163346613,
+            "304": 0.9282868525896414
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 113,
+                "tail_attainment_fraction": 0.9912280701754386
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 103,
+                "tail_attainment_fraction": 0.9537037037037037
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 24,
+                "tail_attainment_fraction": 0.8275862068965517
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 89,
+                "tail_attainment_fraction": 0.956989247311828
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 41,
+                "tail_attainment_fraction": 0.8541666666666666
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 240,
+                "tail_attainment_fraction": 0.9561752988047809
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 54,
+          "aggregate_floor": 0.022629368133038952,
+          "aggregate_raw_min": 0.022608520626363315,
+          "aggregate_raw_min_T": 126,
+          "aggregate_final": 0.02281354680280856,
+          "n_eligible": 251,
+          "tail_attained": 240,
+          "tail_attainment_fraction": 0.9561752988047809,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6414342629482072,
+            "96": 0.9322709163346613,
+            "152": 0.9322709163346613
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 113,
+                "tail_attainment_fraction": 0.9912280701754386
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 103,
+                "tail_attainment_fraction": 0.9537037037037037
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 24,
+                "tail_attainment_fraction": 0.8275862068965517
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 89,
+                "tail_attainment_fraction": 0.956989247311828
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 41,
+                "tail_attainment_fraction": 0.8541666666666666
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 240,
+                "tail_attainment_fraction": 0.9561752988047809
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 54,
+          "aggregate_floor": 0.022629368133038952,
+          "aggregate_raw_min": 0.022608520626363315,
+          "aggregate_raw_min_T": 126,
+          "aggregate_final": 0.023208119810078642,
+          "n_eligible": 251,
+          "tail_attained": 240,
+          "tail_attainment_fraction": 0.9561752988047809,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6414342629482072,
+            "96": 0.9322709163346613,
+            "152": 0.9322709163346613,
+            "304": 0.9282868525896414
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 113,
+                "tail_attainment_fraction": 0.9912280701754386
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 103,
+                "tail_attainment_fraction": 0.9537037037037037
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 24,
+                "tail_attainment_fraction": 0.8275862068965517
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 89,
+                "tail_attainment_fraction": 0.956989247311828
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 41,
+                "tail_attainment_fraction": 0.8541666666666666
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 240,
+                "tail_attainment_fraction": 0.9561752988047809
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "pool": "train",
+      "checkpoint_sha256": "d30e4b3295a40d3b7e49673c0c7e6aedc29b84958f5b9a3a1e1d8f35bdf7b1ca",
+      "input_sha256": "4519b27e1ac91885212866315d421d6b54b8458a193c0973cc367564f77eeb54",
+      "native_variance": 0.027355145664022994,
+      "prefix_max_difference": null,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 44,
+          "aggregate_floor": 0.01262326438245509,
+          "aggregate_raw_min": 0.012610045934252412,
+          "aggregate_raw_min_T": 87,
+          "aggregate_final": 0.015462752697658289,
+          "n_eligible": 507,
+          "tail_attained": 457,
+          "tail_attainment_fraction": 0.9013806706114399,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6646942800788954,
+            "96": 0.8856015779092702,
+            "152": 0.8461538461538461
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 237,
+                "tail_attainment_fraction": 0.9916317991631799
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 191,
+                "tail_attainment_fraction": 0.8565022421524664
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 29,
+                "tail_attainment_fraction": 0.6444444444444445
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 214,
+                "tail_attainment_fraction": 0.9596412556053812
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 167,
+                "tail_attainment_fraction": 0.8477157360406091
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 76,
+                "tail_attainment_fraction": 0.8735632183908046
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 457,
+                "tail_attainment_fraction": 0.9013806706114399
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 44,
+          "aggregate_floor": 0.01262326438245509,
+          "aggregate_raw_min": 0.012610045934252412,
+          "aggregate_raw_min_T": 87,
+          "aggregate_final": 0.025436258155423275,
+          "n_eligible": 507,
+          "tail_attained": 457,
+          "tail_attainment_fraction": 0.9013806706114399,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6646942800788954,
+            "96": 0.8856015779092702,
+            "152": 0.8461538461538461,
+            "304": 0.25443786982248523
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 237,
+                "tail_attainment_fraction": 0.9916317991631799
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 191,
+                "tail_attainment_fraction": 0.8565022421524664
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 29,
+                "tail_attainment_fraction": 0.6444444444444445
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 214,
+                "tail_attainment_fraction": 0.9596412556053812
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 167,
+                "tail_attainment_fraction": 0.8477157360406091
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 76,
+                "tail_attainment_fraction": 0.8735632183908046
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 457,
+                "tail_attainment_fraction": 0.9013806706114399
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 46,
+          "aggregate_floor": 0.014240006802992866,
+          "aggregate_raw_min": 0.014225095277652144,
+          "aggregate_raw_min_T": 87,
+          "aggregate_final": 0.017443166491830198,
+          "n_eligible": 507,
+          "tail_attained": 444,
+          "tail_attainment_fraction": 0.8757396449704142,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6429980276134122,
+            "96": 0.8579881656804734,
+            "152": 0.8106508875739645
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 236,
+                "tail_attainment_fraction": 0.9874476987447699
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 183,
+                "tail_attainment_fraction": 0.820627802690583
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 25,
+                "tail_attainment_fraction": 0.5555555555555556
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 212,
+                "tail_attainment_fraction": 0.9506726457399103
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 162,
+                "tail_attainment_fraction": 0.8223350253807107
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 70,
+                "tail_attainment_fraction": 0.8045977011494253
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 444,
+                "tail_attainment_fraction": 0.8757396449704142
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 46,
+          "aggregate_floor": 0.014240006802992866,
+          "aggregate_raw_min": 0.014225095277652144,
+          "aggregate_raw_min_T": 87,
+          "aggregate_final": 0.028694042802271724,
+          "n_eligible": 507,
+          "tail_attained": 444,
+          "tail_attainment_fraction": 0.8757396449704142,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6429980276134122,
+            "96": 0.8579881656804734,
+            "152": 0.8106508875739645,
+            "304": 0.17159763313609466
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 236,
+                "tail_attainment_fraction": 0.9874476987447699
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 183,
+                "tail_attainment_fraction": 0.820627802690583
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 25,
+                "tail_attainment_fraction": 0.5555555555555556
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 212,
+                "tail_attainment_fraction": 0.9506726457399103
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 162,
+                "tail_attainment_fraction": 0.8223350253807107
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 70,
+                "tail_attainment_fraction": 0.8045977011494253
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 444,
+                "tail_attainment_fraction": 0.8757396449704142
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "pool": "original",
+      "checkpoint_sha256": "d30e4b3295a40d3b7e49673c0c7e6aedc29b84958f5b9a3a1e1d8f35bdf7b1ca",
+      "input_sha256": "706807e1f1fdf31e3c13270038e69c7ce769b0b475ab8347b7511a79f193003d",
+      "native_variance": 0.03085869364540441,
+      "prefix_max_difference": 0.0,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 49,
+          "aggregate_floor": 0.0212805768560429,
+          "aggregate_raw_min": 0.021255541059872485,
+          "aggregate_raw_min_T": 77,
+          "aggregate_final": 0.024280628354972578,
+          "n_eligible": 251,
+          "tail_attained": 226,
+          "tail_attainment_fraction": 0.900398406374502,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6613545816733067,
+            "96": 0.8804780876494024,
+            "152": 0.8326693227091634
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 104,
+                "tail_attainment_fraction": 0.9811320754716981
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 0.8782608695652174
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 21,
+                "tail_attainment_fraction": 0.7
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 95,
+                "tail_attainment_fraction": 0.8878504672897196
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 31,
+                "tail_attainment_fraction": 0.7209302325581395
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 226,
+                "tail_attainment_fraction": 0.900398406374502
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 49,
+          "aggregate_floor": 0.0212805768560429,
+          "aggregate_raw_min": 0.021255541059872485,
+          "aggregate_raw_min_T": 77,
+          "aggregate_final": 0.03397575967392186,
+          "n_eligible": 251,
+          "tail_attained": 226,
+          "tail_attainment_fraction": 0.900398406374502,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6613545816733067,
+            "96": 0.8804780876494024,
+            "152": 0.8326693227091634,
+            "304": 0.29880478087649404
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 104,
+                "tail_attainment_fraction": 0.9811320754716981
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 0.8782608695652174
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 21,
+                "tail_attainment_fraction": 0.7
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 95,
+                "tail_attainment_fraction": 0.8878504672897196
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 31,
+                "tail_attainment_fraction": 0.7209302325581395
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 226,
+                "tail_attainment_fraction": 0.900398406374502
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 49,
+          "aggregate_floor": 0.0212805768560429,
+          "aggregate_raw_min": 0.021255541059872485,
+          "aggregate_raw_min_T": 77,
+          "aggregate_final": 0.024280628354972578,
+          "n_eligible": 251,
+          "tail_attained": 226,
+          "tail_attainment_fraction": 0.900398406374502,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6613545816733067,
+            "96": 0.8804780876494024,
+            "152": 0.8326693227091634
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 104,
+                "tail_attainment_fraction": 0.9811320754716981
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 0.8782608695652174
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 21,
+                "tail_attainment_fraction": 0.7
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 95,
+                "tail_attainment_fraction": 0.8878504672897196
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 31,
+                "tail_attainment_fraction": 0.7209302325581395
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 226,
+                "tail_attainment_fraction": 0.900398406374502
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 49,
+          "aggregate_floor": 0.0212805768560429,
+          "aggregate_raw_min": 0.021255541059872485,
+          "aggregate_raw_min_T": 77,
+          "aggregate_final": 0.03397575967392186,
+          "n_eligible": 251,
+          "tail_attained": 226,
+          "tail_attainment_fraction": 0.900398406374502,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6613545816733067,
+            "96": 0.8804780876494024,
+            "152": 0.8326693227091634,
+            "304": 0.29880478087649404
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 104,
+                "tail_attainment_fraction": 0.9811320754716981
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 101,
+                "tail_attainment_fraction": 0.8782608695652174
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 21,
+                "tail_attainment_fraction": 0.7
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 95,
+                "tail_attainment_fraction": 0.8878504672897196
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 31,
+                "tail_attainment_fraction": 0.7209302325581395
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 226,
+                "tail_attainment_fraction": 0.900398406374502
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "pool": "diagnostic",
+      "checkpoint_sha256": "d30e4b3295a40d3b7e49673c0c7e6aedc29b84958f5b9a3a1e1d8f35bdf7b1ca",
+      "input_sha256": "a8b1b9af56c9c07641d8e750cdf84392f293fa79f8239c7a93e6a66678e71786",
+      "native_variance": 0.030740758405135703,
+      "prefix_max_difference": null,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 52,
+          "aggregate_floor": 0.02057513990712323,
+          "aggregate_raw_min": 0.020562555459036957,
+          "aggregate_raw_min_T": 83,
+          "aggregate_final": 0.023511660331678286,
+          "n_eligible": 251,
+          "tail_attained": 225,
+          "tail_attainment_fraction": 0.896414342629482,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6812749003984063,
+            "96": 0.8844621513944223,
+            "152": 0.848605577689243
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 96,
+                "tail_attainment_fraction": 0.8888888888888888
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 17,
+                "tail_attainment_fraction": 0.5862068965517241
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 108,
+                "tail_attainment_fraction": 0.9818181818181818
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 79,
+                "tail_attainment_fraction": 0.8494623655913979
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 38,
+                "tail_attainment_fraction": 0.7916666666666666
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 225,
+                "tail_attainment_fraction": 0.896414342629482
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 52,
+          "aggregate_floor": 0.02057513990712323,
+          "aggregate_raw_min": 0.020562555459036957,
+          "aggregate_raw_min_T": 83,
+          "aggregate_final": 0.03358303506502125,
+          "n_eligible": 251,
+          "tail_attained": 225,
+          "tail_attainment_fraction": 0.896414342629482,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6812749003984063,
+            "96": 0.8844621513944223,
+            "152": 0.848605577689243,
+            "304": 0.2350597609561753
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 96,
+                "tail_attainment_fraction": 0.8888888888888888
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 17,
+                "tail_attainment_fraction": 0.5862068965517241
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 108,
+                "tail_attainment_fraction": 0.9818181818181818
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 79,
+                "tail_attainment_fraction": 0.8494623655913979
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 38,
+                "tail_attainment_fraction": 0.7916666666666666
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 225,
+                "tail_attainment_fraction": 0.896414342629482
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 52,
+          "aggregate_floor": 0.020654075564380037,
+          "aggregate_raw_min": 0.02064144254927669,
+          "aggregate_raw_min_T": 83,
+          "aggregate_final": 0.023601861760653264,
+          "n_eligible": 251,
+          "tail_attained": 225,
+          "tail_attainment_fraction": 0.896414342629482,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6812749003984063,
+            "96": 0.8844621513944223,
+            "152": 0.8446215139442231
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 96,
+                "tail_attainment_fraction": 0.8888888888888888
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 17,
+                "tail_attainment_fraction": 0.5862068965517241
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 108,
+                "tail_attainment_fraction": 0.9818181818181818
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 79,
+                "tail_attainment_fraction": 0.8494623655913979
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 38,
+                "tail_attainment_fraction": 0.7916666666666666
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 225,
+                "tail_attainment_fraction": 0.896414342629482
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 52,
+          "aggregate_floor": 0.020654075564380037,
+          "aggregate_raw_min": 0.02064144254927669,
+          "aggregate_raw_min_T": 83,
+          "aggregate_final": 0.033711874928485486,
+          "n_eligible": 251,
+          "tail_attained": 225,
+          "tail_attainment_fraction": 0.896414342629482,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6812749003984063,
+            "96": 0.8844621513944223,
+            "152": 0.8446215139442231,
+            "304": 0.2350597609561753
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 96,
+                "tail_attainment_fraction": 0.8888888888888888
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 17,
+                "tail_attainment_fraction": 0.5862068965517241
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 108,
+                "tail_attainment_fraction": 0.9818181818181818
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 79,
+                "tail_attainment_fraction": 0.8494623655913979
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 38,
+                "tail_attainment_fraction": 0.7916666666666666
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 225,
+                "tail_attainment_fraction": 0.896414342629482
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 4,
+      "pool": "train",
+      "checkpoint_sha256": "64f712050dd5a965eecd6204cda522d71904ec84eae0cc18b06ef16d97d031fa",
+      "input_sha256": "4519b27e1ac91885212866315d421d6b54b8458a193c0973cc367564f77eeb54",
+      "native_variance": 0.027355145664022994,
+      "prefix_max_difference": null,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 46,
+          "aggregate_floor": 0.0201007781372482,
+          "aggregate_raw_min": 0.02008557603812733,
+          "aggregate_raw_min_T": 152,
+          "aggregate_final": 0.02008557603812733,
+          "n_eligible": 507,
+          "tail_attained": 496,
+          "tail_attainment_fraction": 0.9783037475345168,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6725838264299803,
+            "96": 0.9743589743589743,
+            "152": 0.9723865877712031
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 236,
+                "tail_attainment_fraction": 0.9874476987447699
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 216,
+                "tail_attainment_fraction": 0.968609865470852
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 44,
+                "tail_attainment_fraction": 0.9777777777777777
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 220,
+                "tail_attainment_fraction": 0.9865470852017937
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 194,
+                "tail_attainment_fraction": 0.9847715736040609
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 82,
+                "tail_attainment_fraction": 0.9425287356321839
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 496,
+                "tail_attainment_fraction": 0.9783037475345168
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 46,
+          "aggregate_floor": 0.01995269963276769,
+          "aggregate_raw_min": 0.01995104499565059,
+          "aggregate_raw_min_T": 173,
+          "aggregate_final": 0.023955177922971416,
+          "n_eligible": 507,
+          "tail_attained": 497,
+          "tail_attainment_fraction": 0.980276134122288,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6725838264299803,
+            "96": 0.9743589743589743,
+            "152": 0.9723865877712031,
+            "304": 0.8126232741617357
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 236,
+                "tail_attainment_fraction": 0.9874476987447699
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 217,
+                "tail_attainment_fraction": 0.9730941704035875
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 44,
+                "tail_attainment_fraction": 0.9777777777777777
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 220,
+                "tail_attainment_fraction": 0.9865470852017937
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 195,
+                "tail_attainment_fraction": 0.9898477157360406
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 82,
+                "tail_attainment_fraction": 0.9425287356321839
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 497,
+                "tail_attainment_fraction": 0.980276134122288
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": 48,
+          "aggregate_floor": 0.02267521357316582,
+          "aggregate_raw_min": 0.022658064734059735,
+          "aggregate_raw_min_T": 152,
+          "aggregate_final": 0.022658064734059735,
+          "n_eligible": 507,
+          "tail_attained": 494,
+          "tail_attainment_fraction": 0.9743589743589743,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6587771203155819,
+            "96": 0.9684418145956607,
+            "152": 0.9684418145956607
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 236,
+                "tail_attainment_fraction": 0.9874476987447699
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 215,
+                "tail_attainment_fraction": 0.9641255605381166
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 43,
+                "tail_attainment_fraction": 0.9555555555555556
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 220,
+                "tail_attainment_fraction": 0.9865470852017937
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 193,
+                "tail_attainment_fraction": 0.9796954314720813
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 81,
+                "tail_attainment_fraction": 0.9310344827586207
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 494,
+                "tail_attainment_fraction": 0.9743589743589743
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": 48,
+          "aggregate_floor": 0.022508169631692,
+          "aggregate_raw_min": 0.02250630291609923,
+          "aggregate_raw_min_T": 173,
+          "aggregate_final": 0.027023271012922123,
+          "n_eligible": 507,
+          "tail_attained": 495,
+          "tail_attainment_fraction": 0.9763313609467456,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6587771203155819,
+            "96": 0.9684418145956607,
+            "152": 0.9684418145956607,
+            "304": 0.777120315581854
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 239,
+                "tail_attained": 236,
+                "tail_attainment_fraction": 0.9874476987447699
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 223,
+                "tail_attained": 216,
+                "tail_attainment_fraction": 0.968609865470852
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 45,
+                "tail_attained": 43,
+                "tail_attainment_fraction": 0.9555555555555556
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 223,
+                "tail_attained": 220,
+                "tail_attainment_fraction": 0.9865470852017937
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 197,
+                "tail_attained": 194,
+                "tail_attainment_fraction": 0.9847715736040609
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 87,
+                "tail_attained": 81,
+                "tail_attainment_fraction": 0.9310344827586207
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 507,
+                "tail_attained": 495,
+                "tail_attainment_fraction": 0.9763313609467456
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 4,
+      "pool": "original",
+      "checkpoint_sha256": "64f712050dd5a965eecd6204cda522d71904ec84eae0cc18b06ef16d97d031fa",
+      "input_sha256": "706807e1f1fdf31e3c13270038e69c7ce769b0b475ab8347b7511a79f193003d",
+      "native_variance": 0.03085869364540441,
+      "prefix_max_difference": 0.0,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.05829842916864436,
+          "aggregate_raw_min": 0.05819577959300659,
+          "aggregate_raw_min_T": 56,
+          "aggregate_final": 0.11065995908211335,
+          "n_eligible": 251,
+          "tail_attained": 244,
+          "tail_attainment_fraction": 0.9721115537848606,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6414342629482072,
+            "96": 0.9641434262948207,
+            "152": 0.9601593625498008
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9905660377358491
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 0.9565217391304348
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 29,
+                "tail_attainment_fraction": 0.9666666666666667
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9813084112149533
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 39,
+                "tail_attainment_fraction": 0.9069767441860465
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 244,
+                "tail_attainment_fraction": 0.9721115537848606
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.05829842916864436,
+          "aggregate_raw_min": 0.05819577959300659,
+          "aggregate_raw_min_T": 56,
+          "aggregate_final": 0.11095026192242585,
+          "n_eligible": 251,
+          "tail_attained": 244,
+          "tail_attainment_fraction": 0.9721115537848606,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6414342629482072,
+            "96": 0.9641434262948207,
+            "152": 0.9601593625498008,
+            "304": 0.7768924302788844
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9905660377358491
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 0.9565217391304348
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 29,
+                "tail_attainment_fraction": 0.9666666666666667
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9813084112149533
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 39,
+                "tail_attainment_fraction": 0.9069767441860465
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 244,
+                "tail_attainment_fraction": 0.9721115537848606
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.05829842916864436,
+          "aggregate_raw_min": 0.05819577959300659,
+          "aggregate_raw_min_T": 56,
+          "aggregate_final": 0.11065995908211335,
+          "n_eligible": 251,
+          "tail_attained": 244,
+          "tail_attainment_fraction": 0.9721115537848606,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6414342629482072,
+            "96": 0.9641434262948207,
+            "152": 0.9601593625498008
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9905660377358491
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 0.9565217391304348
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 29,
+                "tail_attainment_fraction": 0.9666666666666667
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9813084112149533
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 39,
+                "tail_attainment_fraction": 0.9069767441860465
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 244,
+                "tail_attainment_fraction": 0.9721115537848606
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.05829842916864436,
+          "aggregate_raw_min": 0.05819577959300659,
+          "aggregate_raw_min_T": 56,
+          "aggregate_final": 0.11095026192242585,
+          "n_eligible": 251,
+          "tail_attained": 244,
+          "tail_attainment_fraction": 0.9721115537848606,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6414342629482072,
+            "96": 0.9641434262948207,
+            "152": 0.9601593625498008,
+            "304": 0.7768924302788844
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 106,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9905660377358491
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 115,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 0.9565217391304348
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 30,
+                "tail_attained": 29,
+                "tail_attainment_fraction": 0.9666666666666667
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 101,
+                "tail_attained": 100,
+                "tail_attainment_fraction": 0.9900990099009901
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 107,
+                "tail_attained": 105,
+                "tail_attainment_fraction": 0.9813084112149533
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 43,
+                "tail_attained": 39,
+                "tail_attainment_fraction": 0.9069767441860465
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 244,
+                "tail_attainment_fraction": 0.9721115537848606
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 4,
+      "pool": "diagnostic",
+      "checkpoint_sha256": "64f712050dd5a965eecd6204cda522d71904ec84eae0cc18b06ef16d97d031fa",
+      "input_sha256": "a8b1b9af56c9c07641d8e750cdf84392f293fa79f8239c7a93e6a66678e71786",
+      "native_variance": 0.030740758405135703,
+      "prefix_max_difference": null,
+      "common_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.07277749874447181,
+          "aggregate_raw_min": 0.07268417634622892,
+          "aggregate_raw_min_T": 61,
+          "aggregate_final": 0.12528176118667034,
+          "n_eligible": 251,
+          "tail_attained": 242,
+          "tail_attainment_fraction": 0.9641434262948207,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6573705179282868,
+            "96": 0.9641434262948207,
+            "152": 0.9561752988047809
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 103,
+                "tail_attainment_fraction": 0.9537037037037037
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 27,
+                "tail_attainment_fraction": 0.9310344827586207
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 90,
+                "tail_attainment_fraction": 0.967741935483871
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 42,
+                "tail_attainment_fraction": 0.875
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 242,
+                "tail_attainment_fraction": 0.9641434262948207
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.07277749874447181,
+          "aggregate_raw_min": 0.07268417634622892,
+          "aggregate_raw_min_T": 61,
+          "aggregate_final": 0.1256993349993536,
+          "n_eligible": 251,
+          "tail_attained": 242,
+          "tail_attainment_fraction": 0.9641434262948207,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6573705179282868,
+            "96": 0.9641434262948207,
+            "152": 0.9561752988047809,
+            "304": 0.7888446215139442
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 103,
+                "tail_attainment_fraction": 0.9537037037037037
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 27,
+                "tail_attainment_fraction": 0.9310344827586207
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 90,
+                "tail_attainment_fraction": 0.967741935483871
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 42,
+                "tail_attainment_fraction": 0.875
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 242,
+                "tail_attainment_fraction": 0.9641434262948207
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      },
+      "native_normalization": {
+        "152": {
+          "horizon": 152,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.07305670603636827,
+          "aggregate_raw_min": 0.0729630256382734,
+          "aggregate_raw_min_T": 61,
+          "aggregate_final": 0.12576239780992182,
+          "n_eligible": 251,
+          "tail_attained": 242,
+          "tail_attainment_fraction": 0.9641434262948207,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6573705179282868,
+            "96": 0.9641434262948207,
+            "152": 0.9561752988047809
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 103,
+                "tail_attainment_fraction": 0.9537037037037037
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 27,
+                "tail_attainment_fraction": 0.9310344827586207
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 90,
+                "tail_attainment_fraction": 0.967741935483871
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 42,
+                "tail_attainment_fraction": 0.875
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 242,
+                "tail_attainment_fraction": 0.9641434262948207
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        },
+        "304": {
+          "horizon": 304,
+          "aggregate_knee": null,
+          "aggregate_floor": 0.07305670603636827,
+          "aggregate_raw_min": 0.0729630256382734,
+          "aggregate_raw_min_T": 61,
+          "aggregate_final": 0.12618157372094174,
+          "n_eligible": 251,
+          "tail_attained": 242,
+          "tail_attainment_fraction": 0.9641434262948207,
+          "nonfinite_scenes": 0,
+          "actual_tail_quality_coverage": {
+            "48": 0.6573705179282868,
+            "96": 0.9641434262948207,
+            "152": 0.9561752988047809,
+            "304": 0.7888446215139442
+          },
+          "diagnostic_bins": {
+            "dgeo": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 48,
+                "n": 114,
+                "tail_attained": 112,
+                "tail_attainment_fraction": 0.9824561403508771
+              },
+              {
+                "lower_exclusive": 48,
+                "upper_inclusive": 72,
+                "n": 108,
+                "tail_attained": 103,
+                "tail_attainment_fraction": 0.9537037037037037
+              },
+              {
+                "lower_exclusive": 72,
+                "upper_inclusive": null,
+                "n": 29,
+                "tail_attained": 27,
+                "tail_attainment_fraction": 0.9310344827586207
+              }
+            ],
+            "tau": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 1.5,
+                "n": 110,
+                "tail_attained": 110,
+                "tail_attainment_fraction": 1.0
+              },
+              {
+                "lower_exclusive": 1.5,
+                "upper_inclusive": 2.5,
+                "n": 93,
+                "tail_attained": 90,
+                "tail_attainment_fraction": 0.967741935483871
+              },
+              {
+                "lower_exclusive": 2.5,
+                "upper_inclusive": null,
+                "n": 48,
+                "tail_attained": 42,
+                "tail_attainment_fraction": 0.875
+              }
+            ],
+            "low_degree_fraction": [
+              {
+                "lower_exclusive": null,
+                "upper_inclusive": 0.25,
+                "n": 251,
+                "tail_attained": 242,
+                "tail_attainment_fraction": 0.9641434262948207
+              },
+              {
+                "lower_exclusive": 0.25,
+                "upper_inclusive": 0.5,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              },
+              {
+                "lower_exclusive": 0.5,
+                "upper_inclusive": null,
+                "n": 0,
+                "tail_attained": 0,
+                "tail_attainment_fraction": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

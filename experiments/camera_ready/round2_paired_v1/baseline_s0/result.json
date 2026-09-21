@@ -1,0 +1,332 @@
+{
+  "arm": "baseline",
+  "seed": 0,
+  "training": {
+    "status": "archived_baseline",
+    "checkpoint_sha256": "3bbba0bbfad222015d9f1cef1f0f62e594623c46e5ba02b153a7b68fc873b966"
+  },
+  "parameters": 5683,
+  "evaluation": {
+    "original": {
+      "aggregate_knee": null,
+      "aggregate_floor": 0.08189098894945346,
+      "aggregate_c1": null,
+      "n_eligible": 251,
+      "tail_attained": 79,
+      "tail_ceiling": 0.3147410358565737,
+      "tail_conditional_ratios": {
+        "dgeo": {
+          "n": 79,
+          "mean": 0.9883682854230054,
+          "std": 0.1318031789770685,
+          "cv": 0.13335431834567507
+        },
+        "dfree": {
+          "n": 79,
+          "mean": 1.4231879410053114,
+          "std": 0.5853058524738195,
+          "cv": 0.41126392067401246
+        },
+        "deuc": {
+          "n": 79,
+          "mean": 1.2641722372911677,
+          "std": 0.5227510737274337,
+          "cv": 0.41351254070218296
+        }
+      },
+      "frozen_original_calibration": {
+        "flat": {
+          "mean_steps": 68,
+          "actual_tail_quality_coverage": 0.216,
+          "knee_service_coverage": 0.288,
+          "beyond_horizon": 0
+        },
+        "geo": {
+          "mean_steps": 59.648,
+          "actual_tail_quality_coverage": 0.288,
+          "knee_service_coverage": 0.264,
+          "beyond_horizon": 0
+        },
+        "n": 125,
+        "saving_fraction": 0.12282352941176466,
+        "actual_coverage_difference_pp": 7.199999999999998,
+        "calibration": "original pool even indices only; .95 attained-scene quantile, not unconditional guarantee",
+        "flat_T": 68,
+        "geo_c": 1.13
+      },
+      "normalization_variance": 0.03085869364540441,
+      "native_normalization": {
+        "aggregate_knee": null,
+        "aggregate_floor": 0.08189099142327905,
+        "per_metric": {
+          "knee_mean": {
+            "converged": 206,
+            "n": 251,
+            "ceiling": 0.8207171314741036,
+            "ratios": {
+              "dgeo": {
+                "n": 206,
+                "mean": 0.6341792475466187,
+                "std": 0.1301896786639793,
+                "cv": 0.2052884561701288
+              },
+              "dfree": {
+                "n": 206,
+                "mean": 1.1390107082128733,
+                "std": 0.653200379772584,
+                "cv": 0.5734804555063984
+              },
+              "deuc": {
+                "n": 206,
+                "mean": 0.990351798500909,
+                "std": 0.5442081857437618,
+                "cv": 0.5495099686470275
+              }
+            }
+          },
+          "knee_tail": {
+            "converged": 79,
+            "n": 251,
+            "ceiling": 0.3147410358565737,
+            "ratios": {
+              "dgeo": {
+                "n": 79,
+                "mean": 0.9883682854230054,
+                "std": 0.1318031789770685,
+                "cv": 0.13335431834567507
+              },
+              "dfree": {
+                "n": 79,
+                "mean": 1.4231879410053114,
+                "std": 0.5853058524738195,
+                "cv": 0.41126392067401246
+              },
+              "deuc": {
+                "n": 79,
+                "mean": 1.2641722372911677,
+                "std": 0.5227510737274337,
+                "cv": 0.41351254070218296
+              }
+            }
+          }
+        },
+        "n_nonfinite_scenes": 0
+      },
+      "input_sha256": "706807e1f1fdf31e3c13270038e69c7ce769b0b475ab8347b7511a79f193003d"
+    },
+    "diagnostic": {
+      "aggregate_knee": null,
+      "aggregate_floor": 0.061947161798093515,
+      "aggregate_c1": null,
+      "n_eligible": 251,
+      "tail_attained": 78,
+      "tail_ceiling": 0.3107569721115538,
+      "tail_conditional_ratios": {
+        "dgeo": {
+          "n": 78,
+          "mean": 0.956900343468942,
+          "std": 0.12566831581704543,
+          "cv": 0.13132853036866343
+        },
+        "dfree": {
+          "n": 78,
+          "mean": 1.4076948465142018,
+          "std": 0.6930196480377702,
+          "cv": 0.4923081516948485
+        },
+        "deuc": {
+          "n": 78,
+          "mean": 1.2077572332385202,
+          "std": 0.5735344159719855,
+          "cv": 0.4748755794524131
+        }
+      },
+      "frozen_original_calibration": {
+        "flat": {
+          "mean_steps": 68,
+          "actual_tail_quality_coverage": 0.26294820717131473,
+          "knee_service_coverage": 0.30677290836653387,
+          "beyond_horizon": 0
+        },
+        "geo": {
+          "mean_steps": 57.99203187250996,
+          "actual_tail_quality_coverage": 0.30677290836653387,
+          "knee_service_coverage": 0.2908366533864542,
+          "beyond_horizon": 0
+        },
+        "n": 251,
+        "saving_fraction": 0.14717600187485347,
+        "actual_coverage_difference_pp": 4.382470119521914,
+        "calibration": "original pool even indices only; .95 attained-scene quantile, not unconditional guarantee",
+        "flat_T": 68,
+        "geo_c": 1.13
+      },
+      "normalization_variance": 0.03085869364540441,
+      "native_normalization": {
+        "aggregate_knee": null,
+        "aggregate_floor": 0.06218481622636318,
+        "per_metric": {
+          "knee_mean": {
+            "converged": 215,
+            "n": 251,
+            "ceiling": 0.8565737051792829,
+            "ratios": {
+              "dgeo": {
+                "n": 215,
+                "mean": 0.6471865667928288,
+                "std": 0.14461104974221975,
+                "cv": 0.22344569118430305
+              },
+              "dfree": {
+                "n": 215,
+                "mean": 1.1962984917179784,
+                "std": 1.1421960149754802,
+                "cv": 0.9547751024371829
+              },
+              "deuc": {
+                "n": 215,
+                "mean": 1.0519545725243842,
+                "std": 1.108197108803125,
+                "cv": 1.0534647956743752
+              }
+            }
+          },
+          "knee_tail": {
+            "converged": 76,
+            "n": 251,
+            "ceiling": 0.30278884462151395,
+            "ratios": {
+              "dgeo": {
+                "n": 76,
+                "mean": 0.9565525041184184,
+                "std": 0.12685070128417347,
+                "cv": 0.1326123769871703
+              },
+              "dfree": {
+                "n": 76,
+                "mean": 1.4033709494146653,
+                "std": 0.6950972843224028,
+                "cv": 0.49530545335310117
+              },
+              "deuc": {
+                "n": 76,
+                "mean": 1.201172355858582,
+                "std": 0.5718584368043309,
+                "cv": 0.4760835811906228
+              }
+            }
+          }
+        },
+        "n_nonfinite_scenes": 0
+      },
+      "input_sha256": "a8b1b9af56c9c07641d8e750cdf84392f293fa79f8239c7a93e6a66678e71786"
+    },
+    "confirmation": {
+      "aggregate_knee": null,
+      "aggregate_floor": 0.08791639284418806,
+      "aggregate_c1": null,
+      "n_eligible": 252,
+      "tail_attained": 87,
+      "tail_ceiling": 0.34523809523809523,
+      "tail_conditional_ratios": {
+        "dgeo": {
+          "n": 87,
+          "mean": 0.9625504198568013,
+          "std": 0.2699616728650887,
+          "cv": 0.28046496816785027
+        },
+        "dfree": {
+          "n": 87,
+          "mean": 1.383579128303899,
+          "std": 0.810256352347534,
+          "cv": 0.5856234282319729
+        },
+        "deuc": {
+          "n": 87,
+          "mean": 1.1845505203247233,
+          "std": 0.6342662260071624,
+          "cv": 0.5354488602421869
+        }
+      },
+      "frozen_original_calibration": {
+        "flat": {
+          "mean_steps": 68,
+          "actual_tail_quality_coverage": 0.2698412698412698,
+          "knee_service_coverage": 0.3333333333333333,
+          "beyond_horizon": 0
+        },
+        "geo": {
+          "mean_steps": 59.535714285714285,
+          "actual_tail_quality_coverage": 0.35714285714285715,
+          "knee_service_coverage": 0.3373015873015873,
+          "beyond_horizon": 0
+        },
+        "n": 252,
+        "saving_fraction": 0.12447478991596639,
+        "actual_coverage_difference_pp": 8.730158730158733,
+        "calibration": "original pool even indices only; .95 attained-scene quantile, not unconditional guarantee",
+        "flat_T": 68,
+        "geo_c": 1.13
+      },
+      "normalization_variance": 0.03085869364540441,
+      "native_normalization": {
+        "aggregate_knee": null,
+        "aggregate_floor": 0.08851520670577884,
+        "per_metric": {
+          "knee_mean": {
+            "converged": 207,
+            "n": 252,
+            "ceiling": 0.8214285714285714,
+            "ratios": {
+              "dgeo": {
+                "n": 207,
+                "mean": 0.6516660226654243,
+                "std": 0.14971001558759311,
+                "cv": 0.22973426629679697
+              },
+              "dfree": {
+                "n": 207,
+                "mean": 1.1842035297107258,
+                "std": 0.780910192143359,
+                "cv": 0.6594391694932017
+              },
+              "deuc": {
+                "n": 207,
+                "mean": 1.021199845420344,
+                "std": 0.6408702192523402,
+                "cv": 0.6275659187830632
+              }
+            }
+          },
+          "knee_tail": {
+            "converged": 86,
+            "n": 252,
+            "ceiling": 0.3412698412698413,
+            "ratios": {
+              "dgeo": {
+                "n": 86,
+                "mean": 0.9548992064824532,
+                "std": 0.25931089622622366,
+                "cv": 0.27155839534252313
+              },
+              "dfree": {
+                "n": 86,
+                "mean": 1.3793531226641773,
+                "std": 0.8248598905533566,
+                "cv": 0.5980048741689623
+              },
+              "deuc": {
+                "n": 86,
+                "mean": 1.1830854668993978,
+                "std": 0.6460969265639556,
+                "cv": 0.5461117938142128
+              }
+            }
+          }
+        },
+        "n_nonfinite_scenes": 0
+      },
+      "input_sha256": "d790b5fa354aa4ae2f7b41bc26c38d1f9602e328e81a2fd0293961852a2cc09e"
+    }
+  }
+}

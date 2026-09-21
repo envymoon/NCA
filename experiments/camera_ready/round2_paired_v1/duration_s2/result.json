@@ -1,0 +1,335 @@
+{
+  "arm": "duration",
+  "seed": 2,
+  "training": {
+    "status": "completed",
+    "iterations": 40000,
+    "additional_iterations": 20000,
+    "additional_seconds": 1907.8000834579998,
+    "source_checkpoint_sha256": "b74d41df95ca36aa81e996b1bc3a1205e5ccd3feb3dbb14d199c16225dacf3fb"
+  },
+  "parameters": 5683,
+  "evaluation": {
+    "original": {
+      "aggregate_knee": 44,
+      "aggregate_floor": 0.00614828844436488,
+      "aggregate_c1": 0.822790357925493,
+      "n_eligible": 251,
+      "tail_attained": 241,
+      "tail_ceiling": 0.9601593625498008,
+      "tail_conditional_ratios": {
+        "dgeo": {
+          "n": 241,
+          "mean": 0.8894855393389263,
+          "std": 0.1372647706374324,
+          "cv": 0.15431928296377795
+        },
+        "dfree": {
+          "n": 241,
+          "mean": 1.752754997649412,
+          "std": 1.5287862632160356,
+          "cv": 0.8722190296226587
+        },
+        "deuc": {
+          "n": 241,
+          "mean": 1.516963579257868,
+          "std": 1.2610984606896856,
+          "cv": 0.8313307438182812
+        }
+      },
+      "frozen_original_calibration": {
+        "flat": {
+          "mean_steps": 68,
+          "actual_tail_quality_coverage": 0.888,
+          "knee_service_coverage": 0.896,
+          "beyond_horizon": 0
+        },
+        "geo": {
+          "mean_steps": 57.08,
+          "actual_tail_quality_coverage": 0.92,
+          "knee_service_coverage": 0.928,
+          "beyond_horizon": 0
+        },
+        "n": 125,
+        "saving_fraction": 0.1605882352941177,
+        "actual_coverage_difference_pp": 3.200000000000003,
+        "calibration": "original pool even indices only; .95 attained-scene quantile, not unconditional guarantee",
+        "flat_T": 68,
+        "geo_c": 1.08
+      },
+      "normalization_variance": 0.03085869364540441,
+      "native_normalization": {
+        "aggregate_knee": 44,
+        "aggregate_floor": 0.006148288288386539,
+        "per_metric": {
+          "knee_mean": {
+            "converged": 249,
+            "n": 251,
+            "ceiling": 0.9920318725099602,
+            "ratios": {
+              "dgeo": {
+                "n": 249,
+                "mean": 0.7046720260212443,
+                "std": 0.16447076023037857,
+                "cv": 0.23340043900851562
+              },
+              "dfree": {
+                "n": 249,
+                "mean": 1.3828067027841335,
+                "std": 1.2587954861808535,
+                "cv": 0.9103191962017564
+              },
+              "deuc": {
+                "n": 249,
+                "mean": 1.2018442774793638,
+                "std": 1.0446355127094549,
+                "cv": 0.8691937319037505
+              }
+            }
+          },
+          "knee_tail": {
+            "converged": 241,
+            "n": 251,
+            "ceiling": 0.9601593625498008,
+            "ratios": {
+              "dgeo": {
+                "n": 241,
+                "mean": 0.8894855393389263,
+                "std": 0.1372647706374324,
+                "cv": 0.15431928296377795
+              },
+              "dfree": {
+                "n": 241,
+                "mean": 1.752754997649412,
+                "std": 1.5287862632160356,
+                "cv": 0.8722190296226587
+              },
+              "deuc": {
+                "n": 241,
+                "mean": 1.516963579257868,
+                "std": 1.2610984606896856,
+                "cv": 0.8313307438182812
+              }
+            }
+          }
+        },
+        "n_nonfinite_scenes": 0
+      },
+      "input_sha256": "706807e1f1fdf31e3c13270038e69c7ce769b0b475ab8347b7511a79f193003d"
+    },
+    "diagnostic": {
+      "aggregate_knee": 45,
+      "aggregate_floor": 0.006241848413484547,
+      "aggregate_c1": 0.858548218810553,
+      "n_eligible": 251,
+      "tail_attained": 244,
+      "tail_ceiling": 0.9721115537848606,
+      "tail_conditional_ratios": {
+        "dgeo": {
+          "n": 244,
+          "mean": 0.8769122128975286,
+          "std": 0.14068810318252514,
+          "cv": 0.16043578948188877
+        },
+        "dfree": {
+          "n": 244,
+          "mean": 1.6849332077218904,
+          "std": 1.6460129928356606,
+          "cv": 0.9769010339947827
+        },
+        "deuc": {
+          "n": 244,
+          "mean": 1.480541050448276,
+          "std": 1.5653027639219526,
+          "cv": 1.0572504986930369
+        }
+      },
+      "frozen_original_calibration": {
+        "flat": {
+          "mean_steps": 68,
+          "actual_tail_quality_coverage": 0.9442231075697212,
+          "knee_service_coverage": 0.9442231075697212,
+          "beyond_horizon": 0
+        },
+        "geo": {
+          "mean_steps": 55.42629482071713,
+          "actual_tail_quality_coverage": 0.9641434262948207,
+          "knee_service_coverage": 0.9601593625498008,
+          "beyond_horizon": 0
+        },
+        "n": 251,
+        "saving_fraction": 0.184907429107101,
+        "actual_coverage_difference_pp": 1.9920318725099584,
+        "calibration": "original pool even indices only; .95 attained-scene quantile, not unconditional guarantee",
+        "flat_T": 68,
+        "geo_c": 1.08
+      },
+      "normalization_variance": 0.03085869364540441,
+      "native_normalization": {
+        "aggregate_knee": 45,
+        "aggregate_floor": 0.00626579494564794,
+        "per_metric": {
+          "knee_mean": {
+            "converged": 249,
+            "n": 251,
+            "ceiling": 0.9920318725099602,
+            "ratios": {
+              "dgeo": {
+                "n": 249,
+                "mean": 0.7014983240019849,
+                "std": 0.16390693126857822,
+                "cv": 0.23365263416953574
+              },
+              "dfree": {
+                "n": 249,
+                "mean": 1.3259246067049766,
+                "std": 1.271964645206838,
+                "cv": 0.9593038991619341
+              },
+              "deuc": {
+                "n": 249,
+                "mean": 1.1670621613797183,
+                "std": 1.2081972956041866,
+                "cv": 1.0352467379936625
+              }
+            }
+          },
+          "knee_tail": {
+            "converged": 244,
+            "n": 251,
+            "ceiling": 0.9721115537848606,
+            "ratios": {
+              "dgeo": {
+                "n": 244,
+                "mean": 0.8771775520855398,
+                "std": 0.14068562725793657,
+                "cv": 0.16038443633611968
+              },
+              "dfree": {
+                "n": 244,
+                "mean": 1.6854006436789497,
+                "std": 1.6459918725187173,
+                "cv": 0.9766175649047993
+              },
+              "deuc": {
+                "n": 244,
+                "mean": 1.4809835953402306,
+                "std": 1.565313636208257,
+                "cv": 1.0569419142341363
+              }
+            }
+          }
+        },
+        "n_nonfinite_scenes": 0
+      },
+      "input_sha256": "a8b1b9af56c9c07641d8e750cdf84392f293fa79f8239c7a93e6a66678e71786"
+    },
+    "confirmation": {
+      "aggregate_knee": 44,
+      "aggregate_floor": 0.00800266810973494,
+      "aggregate_c1": 0.8301274964993736,
+      "n_eligible": 252,
+      "tail_attained": 243,
+      "tail_ceiling": 0.9642857142857143,
+      "tail_conditional_ratios": {
+        "dgeo": {
+          "n": 243,
+          "mean": 0.8961097361018222,
+          "std": 0.16637403856416613,
+          "cv": 0.18566257218442
+        },
+        "dfree": {
+          "n": 243,
+          "mean": 1.689062392562359,
+          "std": 1.0848664462789999,
+          "cv": 0.6422891487348934
+        },
+        "deuc": {
+          "n": 243,
+          "mean": 1.4680821313757269,
+          "std": 0.9290724187699866,
+          "cv": 0.6328477126135722
+        }
+      },
+      "frozen_original_calibration": {
+        "flat": {
+          "mean_steps": 68,
+          "actual_tail_quality_coverage": 0.8849206349206349,
+          "knee_service_coverage": 0.8849206349206349,
+          "beyond_horizon": 0
+        },
+        "geo": {
+          "mean_steps": 56.857142857142854,
+          "actual_tail_quality_coverage": 0.9484126984126984,
+          "knee_service_coverage": 0.9523809523809523,
+          "beyond_horizon": 0
+        },
+        "n": 252,
+        "saving_fraction": 0.16386554621848748,
+        "actual_coverage_difference_pp": 6.349206349206349,
+        "calibration": "original pool even indices only; .95 attained-scene quantile, not unconditional guarantee",
+        "flat_T": 68,
+        "geo_c": 1.08
+      },
+      "normalization_variance": 0.03085869364540441,
+      "native_normalization": {
+        "aggregate_knee": 44,
+        "aggregate_floor": 0.008057175786234438,
+        "per_metric": {
+          "knee_mean": {
+            "converged": 249,
+            "n": 252,
+            "ceiling": 0.9880952380952381,
+            "ratios": {
+              "dgeo": {
+                "n": 249,
+                "mean": 0.7110247372872993,
+                "std": 0.15926183270787309,
+                "cv": 0.22398915868312633
+              },
+              "dfree": {
+                "n": 249,
+                "mean": 1.3416908962660632,
+                "std": 0.8804934379593448,
+                "cv": 0.6562565494107214
+              },
+              "deuc": {
+                "n": 249,
+                "mean": 1.1695355081391352,
+                "std": 0.7670722969128906,
+                "cv": 0.6558777322916773
+              }
+            }
+          },
+          "knee_tail": {
+            "converged": 243,
+            "n": 252,
+            "ceiling": 0.9642857142857143,
+            "ratios": {
+              "dgeo": {
+                "n": 243,
+                "mean": 0.8967818129695588,
+                "std": 0.16605671954140075,
+                "cv": 0.18516958878941664
+              },
+              "dfree": {
+                "n": 243,
+                "mean": 1.69050689738377,
+                "std": 1.0852245882689846,
+                "cv": 0.6419521801114678
+              },
+              "deuc": {
+                "n": 243,
+                "mean": 1.469382827844029,
+                "std": 0.9295377705495432,
+                "cv": 0.6326042151407333
+              }
+            }
+          }
+        },
+        "n_nonfinite_scenes": 0
+      },
+      "input_sha256": "d790b5fa354aa4ae2f7b41bc26c38d1f9602e328e81a2fd0293961852a2cc09e"
+    }
+  }
+}

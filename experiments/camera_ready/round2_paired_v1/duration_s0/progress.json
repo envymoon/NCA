@@ -1,0 +1,8 @@
+{
+  "seed": 0,
+  "iteration": 40000,
+  "end": 40000,
+  "loss": 0.010143858380615711,
+  "gradient_norm_before_clip": 7.4484333992004395,
+  "additional_seconds": 1803.523716587999
+}

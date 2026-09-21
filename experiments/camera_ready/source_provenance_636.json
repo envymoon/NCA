@@ -1,0 +1,23 @@
+{
+  "scope": "byte-exact historical reconstruction and normalized AST comparison",
+  "files": [
+    {
+      "file": "branch_E_anytime.py",
+      "current_sha256": "0ffb6f4356d77f53027ef2b2123ec954f487ab2c25c98c2faafa5e7a6bc0971f",
+      "reconstructed_frozen_v2_sha256": "2a7d3278d80332451320727de5ecc2f40a4c432aebde4efc00780bd829a1227f",
+      "matches_frozen_v2": true,
+      "normalized_ast_equal": true,
+      "diff_old_to_current": "--- frozen_v2/branch_E_anytime.py\n+++ release/branch_E_anytime.py\n@@ -20,8 +20,8 @@\n      under-provisions the tortuous tail.\n \n THE TWO CONFOUNDS THIS DESIGN REMOVES\n-  * HORIZON. One GLOBAL anytime cap shared by every grid, fixed above any plausible knee and\n-    independent of any per-scene distance. A per-grid cap would make the horizon itself\n+  * HORIZON. One GLOBAL anytime cap is set once from the maximum training-pool distance and\n+    then shared unchanged by every grid. A per-grid cap would make the horizon itself\n     proportional to distance, so a knee at a fixed fraction of the cap would masquerade as\n     \"knee proportional to D_geo\". Every reported knee must sit strictly below the cap.\n   * ACCURACY BAR. The knee is a crossing of an ABSOLUTE error target (BF.abs_knee), held fixed\n@@ -108,7 +108,7 @@\n                                        walls=tuple(a.walls))\n     cap = int(a.cap_factor * max(pools[G][3].max().item() for G in a.grids)) + 8\n     res[\"global_cap\"] = cap\n-    print(f\"  GLOBAL anytime cap = {cap} (shared by all grids; distance-independent)\")\n+    print(f\"  GLOBAL anytime cap = {cap} (set from the training-pool maximum; shared by all grids)\")\n     for G in a.grids:\n         t = vpools[G][6]\n         print(f\"  G={G:2d}: D_geo mean={vpools[G][3].mean():5.1f}  \"\n"
+    },
+    {
+      "file": "branch_F_tortuosity.py",
+      "current_sha256": "e7676faed653c477956618ba58e72cf7d511d214007bb2da15c66b33c3685331",
+      "reconstructed_frozen_v2_sha256": "54c8e8bbe8a8a545ff7b0243890f2addcd770af4ee8de73d25982fbb4b776586",
+      "matches_frozen_v2": true,
+      "normalized_ast_equal": true,
+      "diff_old_to_current": "--- frozen_v2/branch_F_tortuosity.py\n+++ release/branch_F_tortuosity.py\n@@ -213,9 +213,9 @@\n     rather than as six discrete settings. tau is measured per scene (see build_pool_maze) and\n     binned post hoc, instead of being dialled in.\n \n-    The seed is resampled (up to `tries` rounds, batched) until it reaches at least\n-    `min_reach` of the scene's free cells, so no scene degenerates into a sealed pocket whose\n-    D_geo is trivially small.\n+    The seed is resampled for up to `tries` batched rounds to seek at least `min_reach` of\n+    the scene's free cells. A scene that still misses the threshold after the final round is\n+    retained rather than silently discarded.\n     \"\"\"\n     wlo, whi = walls\n     obs = (torch.rand(n, 1, H, W, generator=gen, device=device) < noise).float()\n"
+    }
+  ],
+  "numeric_code_unchanged": true,
+  "old_manifest_was_not_modified": true
+}
